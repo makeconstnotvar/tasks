@@ -1,0 +1,4 @@
+task1/node_modules
+task1/app/build
+npm-debug.log
+.idea
