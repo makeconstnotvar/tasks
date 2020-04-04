@@ -1,8 +1,11 @@
+
 * {
+  /* способ определения размеров тегов */
   box-sizing: border-box;
 }
 
 html {
+  /* избегаем скачка ширины при появлении скролла*/
   overflow-y: scroll;
 }
 
@@ -12,15 +15,18 @@ body {
 }
 
 html, body, #root {
+  /* vh - процент от размер "вьюпорта", можно понимать как от размер окна*/
   min-height: 100vh;
 }
 
 .container {
+  /* контент по центру */
   max-width: 1280px;
   margin: auto;
 }
 
 #root {
+  /* grid по смыслу похож на таблицу, но со специфическими стилями, расчитанными на построение лайаута (layout) */
   display: grid;
   grid-template-rows: 60px 1fr 60px;
 }
@@ -31,6 +37,7 @@ html, body, #root {
 
 .header-item {
   display: inline-block;
+  /* легкий способ задать высоту и центрировать по высоте */
   line-height: 60px;
   color: white;
   text-decoration: none;
@@ -39,11 +46,11 @@ html, body, #root {
 .header-item.brand {
   margin-right: 15px;
 }
-
+/* not значит "все .header-item кроме .brand" */
 .header-item:not(.brand) {
   padding: 0 20px;
 }
-
+/* hover событие наведение мышки*/
 .header-item:not(.brand):hover {
   background-color: #C2554F;
 }
@@ -51,45 +58,5 @@ html, body, #root {
 .footer {
   background-color: #2b2f40;
   line-height: 60px;
-  color: white;
-}
-
-.workers {
-  margin-bottom: 50px;
-  display: grid;
-  grid-template-columns: 250px 250px 250px 250px;
-  grid-gap: 30px;
-}
-
-.worker {
-  position: relative;
-  display: inline-flex;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  flex-direction: column;
-  padding: 20px 20px 0 20px;
-  margin-bottom: 30px;
-}
-
-.worker .foto {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 40px;
-}
-
-.worker .name {
-  font-size: 20px;
-  border-bottom: 1px solid #871F22;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-.worker .info {
-  position: absolute;
-  bottom: -40px;
-  background-color: #C2554F;
-  padding: 10px;
-  width: calc(100% - 40px);
-  text-align: center;
   color: white;
 }
