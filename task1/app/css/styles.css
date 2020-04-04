@@ -31,11 +31,17 @@ html, body, #root {
 
 .header-item {
   display: inline-block;
-  margin-right: 15px;
   line-height: 60px;
   color: white;
-  padding: 0 20px;
   text-decoration: none;
+}
+
+.header-item.brand {
+  margin-right: 15px;
+}
+
+.header-item:not(.brand) {
+  padding: 0 20px;
 }
 
 .header-item:not(.brand):hover {
