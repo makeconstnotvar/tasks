@@ -8,9 +8,10 @@ class Page extends Component {
         <div className="header">
           <div className="container">
             <div className="header-item brand">HEADER</div>
-            <a className="header-item" href="index.html">страница1</a>
-            <a className="header-item" href="page2.html">страница2</a>
-            <a className="header-item" href="page3.html">страница3</a>
+            <a className="header-item" href="index.html">Cтраница 1</a>
+            <a className="header-item" href="page2.html">Cтраница 2</a>
+            <a className="header-item" href="page3.html">Cтраница 3</a>
+            <a className="header-item" href="page4.html">Cтраница 4</a>
           </div>
         </div>
         <div className="content">
