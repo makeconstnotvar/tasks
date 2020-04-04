@@ -2,7 +2,29 @@ import React, {Component, Fragment} from "react";
 import {render} from "react-dom";
 
 class Page extends Component {
+  timer = null;
+  limit = 5;
+
+  state = {
+    count: 0
+  };
+
+  componentDidMount() {
+    this.timer = setInterval(() => {
+      this.setState({count: this.state.count + 1})
+    }, 1000);
+  }
+
+  reset = () => {
+    this.setState({count: 0})
+  };
+
+  componentWillUnmount() {
+    clearInterval(this.timer)
+  }
+
   render() {
+    let {count} = this.state;
     return (
       <Fragment>
         <div className="header">
@@ -16,6 +38,11 @@ class Page extends Component {
         <div className="content">
           <div className="container">
             <h1>CONTENT</h1>
+            <p>Счетчик: {count}</p>
+            {
+              count > this.limit &&
+              <div>Счетчик больше {this.limit}! <button onClick={this.reset}>Сборосить</button></div>
+            }
           </div>
         </div>
         <div className="footer">

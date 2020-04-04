@@ -1,6 +1,16 @@
 import React, {Component, Fragment} from "react";
 import {render} from "react-dom";
 
+let workers = [
+  {name: "Василий", age: 30, position: "сантехник", gender: "man"},
+  {name: "Богдан", age: 54, position: "сторож", gender: "man"},
+  {name: "Наташа", age: 24, position: "курьер", gender: "woman"},
+  {name: "Ира", age: 35, position: "продавец", gender: "woman"},
+  {name: "Семён", age: 41, position: "безработный", gender: "man"},
+  {name: "Марина", age: 40, position: "бухгалтер", gender: "woman"},
+  {name: "Анатолий", age: 50, position: "тестировщик", gender: "man"}
+];
+
 class Page extends Component {
   render() {
     return (
@@ -16,6 +26,19 @@ class Page extends Component {
         <div className="content">
           <div className="container">
             <h1>CONTENT</h1>
+            <div className="workers">
+              {
+                workers.map((w, i) => (
+                  <div key={i} className={`worker`}>
+                    <div className="foto"><img src={`img/${w.gender}.png`} alt=""/></div>
+                    <div className="info">
+                      <div className="name">{w.name} {w.age} лет</div>
+                      <div>Должность: {w.position}</div>
+                    </div>
+                  </div>
+                ))
+              }
+            </div>
           </div>
         </div>
         <div className="footer">
