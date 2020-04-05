@@ -161,9 +161,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/asm.svg"
   },
   {
@@ -261,9 +259,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/aia.svg"
   },
   {
@@ -300,9 +296,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ata.svg"
   },
   {
@@ -334,9 +328,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/atg.svg"
   },
   {
@@ -368,9 +360,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/arg.svg"
   },
   {
@@ -402,9 +392,7 @@ const countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/arm.svg"
   },
   {
@@ -436,9 +424,7 @@ const countries = [
         "symbol": "ƒ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/abw.svg"
   },
   {
@@ -470,9 +456,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/aus.svg"
   },
   {
@@ -504,9 +488,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/aut.svg"
   },
   {
@@ -538,9 +520,7 @@ const countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/aze.svg"
   },
   {
@@ -572,9 +552,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bhs.svg"
   },
   {
@@ -606,9 +584,7 @@ const countries = [
         "symbol": ".د.ب"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bhr.svg"
   },
   {
@@ -640,9 +616,7 @@ const countries = [
         "symbol": "৳"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bgd.svg"
   },
   {
@@ -674,9 +648,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/brb.svg"
   },
   {
@@ -713,9 +685,7 @@ const countries = [
         "symbol": "Br"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/blr.svg"
   },
   {
@@ -747,9 +717,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bel.svg"
   },
   {
@@ -781,9 +749,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/blz.svg"
   },
   {
@@ -815,9 +781,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ben.svg"
   },
   {
@@ -849,9 +813,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bmu.svg"
   },
   {
@@ -888,9 +850,7 @@ const countries = [
         "symbol": "₹"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/btn.svg"
   },
   {
@@ -922,9 +882,7 @@ const countries = [
         "symbol": "Bs."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bol.svg"
   },
   {
@@ -957,9 +915,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bes.svg"
   },
   {
@@ -991,9 +947,7 @@ const countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bih.svg"
   },
   {
@@ -1025,9 +979,7 @@ const countries = [
         "symbol": "P"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bwa.svg"
   },
   {
@@ -1059,9 +1011,7 @@ const countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bvt.svg"
   },
   {
@@ -1093,9 +1043,7 @@ const countries = [
         "symbol": "R$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bra.svg"
   },
   {
@@ -1127,9 +1075,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/iot.svg"
   },
   {
@@ -1158,9 +1104,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/umi.svg"
   },
   {
@@ -1197,9 +1141,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vgb.svg"
   },
   {
@@ -1231,9 +1173,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vir.svg"
   },
   {
@@ -1270,9 +1210,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/brn.svg"
   },
   {
@@ -1304,9 +1242,7 @@ const countries = [
         "symbol": "лв"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bgr.svg"
   },
   {
@@ -1338,9 +1274,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bfa.svg"
   },
   {
@@ -1372,9 +1306,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bdi.svg"
   },
   {
@@ -1411,9 +1343,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/khm.svg"
   },
   {
@@ -1445,9 +1375,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cmr.svg"
   },
   {
@@ -1479,9 +1407,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/can.svg"
   },
   {
@@ -1513,9 +1439,7 @@ const countries = [
         "symbol": "Esc"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cpv.svg"
   },
   {
@@ -1547,9 +1471,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cym.svg"
   },
   {
@@ -1581,9 +1503,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/caf.svg"
   },
   {
@@ -1615,9 +1535,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tcd.svg"
   },
   {
@@ -1649,9 +1567,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/chl.svg"
   },
   {
@@ -1683,9 +1599,7 @@ const countries = [
         "symbol": "¥"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/chn.svg"
   },
   {
@@ -1717,9 +1631,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cxr.svg"
   },
   {
@@ -1751,9 +1663,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cck.svg"
   },
   {
@@ -1785,9 +1695,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/col.svg"
   },
   {
@@ -1819,9 +1727,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/com.svg"
   },
   {
@@ -1853,9 +1759,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cog.svg"
   },
   {
@@ -1887,9 +1791,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cod.svg"
   },
   {
@@ -1926,9 +1828,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cok.svg"
   },
   {
@@ -1960,9 +1860,7 @@ const countries = [
         "symbol": "₡"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cri.svg"
   },
   {
@@ -1994,9 +1892,7 @@ const countries = [
         "symbol": "kn"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hrv.svg"
   },
   {
@@ -2033,9 +1929,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cub.svg"
   },
   {
@@ -2067,9 +1961,7 @@ const countries = [
         "symbol": "ƒ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cuw.svg"
   },
   {
@@ -2101,9 +1993,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cyp.svg"
   },
   {
@@ -2135,9 +2025,7 @@ const countries = [
         "symbol": "Kč"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cze.svg"
   },
   {
@@ -2169,9 +2057,7 @@ const countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/dnk.svg"
   },
   {
@@ -2203,9 +2089,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/dji.svg"
   },
   {
@@ -2237,9 +2121,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/dma.svg"
   },
   {
@@ -2273,9 +2155,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/dom.svg"
   },
   {
@@ -2307,9 +2187,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ecu.svg"
   },
   {
@@ -2341,9 +2219,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/egy.svg"
   },
   {
@@ -2375,9 +2251,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/slv.svg"
   },
   {
@@ -2409,9 +2283,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gnq.svg"
   },
   {
@@ -2443,9 +2315,7 @@ const countries = [
         "symbol": "Nfk"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/eri.svg"
   },
   {
@@ -2477,9 +2347,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/est.svg"
   },
   {
@@ -2511,9 +2379,7 @@ const countries = [
         "symbol": "Br"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/eth.svg"
   },
   {
@@ -2545,9 +2411,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/flk.svg"
   },
   {
@@ -2584,9 +2448,7 @@ const countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/fro.svg"
   },
   {
@@ -2618,9 +2480,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/fji.svg"
   },
   {
@@ -2652,9 +2512,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/fin.svg"
   },
   {
@@ -2686,9 +2544,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/fra.svg"
   },
   {
@@ -2720,9 +2576,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/guf.svg"
   },
   {
@@ -2754,9 +2608,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pyf.svg"
   },
   {
@@ -2788,9 +2640,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/atf.svg"
   },
   {
@@ -2822,9 +2672,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gab.svg"
   },
   {
@@ -2856,9 +2704,7 @@ const countries = [
         "symbol": "D"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gmb.svg"
   },
   {
@@ -2890,9 +2736,7 @@ const countries = [
         "symbol": "ლ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/geo.svg"
   },
   {
@@ -2924,9 +2768,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/deu.svg"
   },
   {
@@ -2958,9 +2800,7 @@ const countries = [
         "symbol": "₵"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gha.svg"
   },
   {
@@ -2992,9 +2832,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gib.svg"
   },
   {
@@ -3026,9 +2864,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/grc.svg"
   },
   {
@@ -3060,9 +2896,7 @@ const countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/grl.svg"
   },
   {
@@ -3094,9 +2928,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/grd.svg"
   },
   {
@@ -3128,9 +2960,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/glp.svg"
   },
   {
@@ -3162,9 +2992,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gum.svg"
   },
   {
@@ -3196,9 +3024,7 @@ const countries = [
         "symbol": "Q"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gtm.svg"
   },
   {
@@ -3235,9 +3061,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ggy.svg"
   },
   {
@@ -3269,9 +3093,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gin.svg"
   },
   {
@@ -3303,9 +3125,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gnb.svg"
   },
   {
@@ -3337,9 +3157,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/guy.svg"
   },
   {
@@ -3371,9 +3189,7 @@ const countries = [
         "symbol": "G"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hti.svg"
   },
   {
@@ -3406,9 +3222,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hmd.svg"
   },
   {
@@ -3440,9 +3254,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vat.svg"
   },
   {
@@ -3474,9 +3286,7 @@ const countries = [
         "symbol": "L"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hnd.svg"
   },
   {
@@ -3508,9 +3318,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hkg.svg"
   },
   {
@@ -3542,9 +3350,7 @@ const countries = [
         "symbol": "Ft"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hun.svg"
   },
   {
@@ -3576,9 +3382,7 @@ const countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/isl.svg"
   },
   {
@@ -3610,9 +3414,7 @@ const countries = [
         "symbol": "₹"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ind.svg"
   },
   {
@@ -3644,9 +3446,7 @@ const countries = [
         "symbol": "Rp"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/idn.svg"
   },
   {
@@ -3678,9 +3478,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/civ.svg"
   },
   {
@@ -3712,9 +3510,7 @@ const countries = [
         "symbol": "﷼"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/irn.svg"
   },
   {
@@ -3746,9 +3542,7 @@ const countries = [
         "symbol": "ع.د"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/irq.svg"
   },
   {
@@ -3780,9 +3574,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/irl.svg"
   },
   {
@@ -3819,9 +3611,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/imn.svg"
   },
   {
@@ -3853,9 +3643,7 @@ const countries = [
         "symbol": "₪"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/isr.svg"
   },
   {
@@ -3887,9 +3675,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ita.svg"
   },
   {
@@ -3921,9 +3707,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/jam.svg"
   },
   {
@@ -3955,9 +3739,7 @@ const countries = [
         "symbol": "¥"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/jpn.svg"
   },
   {
@@ -3994,9 +3776,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/jey.svg"
   },
   {
@@ -4028,9 +3808,7 @@ const countries = [
         "symbol": "د.ا"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/jor.svg"
   },
   {
@@ -4064,9 +3842,7 @@ const countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kaz.svg"
   },
   {
@@ -4098,9 +3874,7 @@ const countries = [
         "symbol": "Sh"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ken.svg"
   },
   {
@@ -4137,9 +3911,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kir.svg"
   },
   {
@@ -4171,9 +3943,7 @@ const countries = [
         "symbol": "د.ك"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kwt.svg"
   },
   {
@@ -4205,9 +3975,7 @@ const countries = [
         "symbol": "с"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kgz.svg"
   },
   {
@@ -4239,9 +4007,7 @@ const countries = [
         "symbol": "₭"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lao.svg"
   },
   {
@@ -4273,9 +4039,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lva.svg"
   },
   {
@@ -4307,9 +4071,7 @@ const countries = [
         "symbol": "ل.ل"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lbn.svg"
   },
   {
@@ -4346,9 +4108,7 @@ const countries = [
         "symbol": "R"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lso.svg"
   },
   {
@@ -4380,9 +4140,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lbr.svg"
   },
   {
@@ -4414,9 +4172,7 @@ const countries = [
         "symbol": "ل.د"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lby.svg"
   },
   {
@@ -4448,9 +4204,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lie.svg"
   },
   {
@@ -4482,9 +4236,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ltu.svg"
   },
   {
@@ -4516,9 +4268,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lux.svg"
   },
   {
@@ -4550,9 +4300,7 @@ const countries = [
         "symbol": "P"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mac.svg"
   },
   {
@@ -4584,9 +4332,7 @@ const countries = [
         "symbol": "ден"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mkd.svg"
   },
   {
@@ -4618,9 +4364,7 @@ const countries = [
         "symbol": "Ar"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mdg.svg"
   },
   {
@@ -4652,9 +4396,7 @@ const countries = [
         "symbol": "MK"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mwi.svg"
   },
   {
@@ -4686,9 +4428,7 @@ const countries = [
         "symbol": "RM"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mys.svg"
   },
   {
@@ -4720,9 +4460,7 @@ const countries = [
         "symbol": ".ރ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mdv.svg"
   },
   {
@@ -4754,9 +4492,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mli.svg"
   },
   {
@@ -4788,9 +4524,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mlt.svg"
   },
   {
@@ -4822,9 +4556,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mhl.svg"
   },
   {
@@ -4856,9 +4588,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mtq.svg"
   },
   {
@@ -4890,9 +4620,7 @@ const countries = [
         "symbol": "UM"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mrt.svg"
   },
   {
@@ -4924,9 +4652,7 @@ const countries = [
         "symbol": "₨"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mus.svg"
   },
   {
@@ -4958,9 +4684,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/myt.svg"
   },
   {
@@ -4992,9 +4716,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mex.svg"
   },
   {
@@ -5031,9 +4753,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/fsm.svg"
   },
   {
@@ -5065,9 +4785,7 @@ const countries = [
         "symbol": "L"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mda.svg"
   },
   {
@@ -5099,9 +4817,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mco.svg"
   },
   {
@@ -5133,9 +4849,7 @@ const countries = [
         "symbol": "₮"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mng.svg"
   },
   {
@@ -5167,9 +4881,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mne.svg"
   },
   {
@@ -5201,9 +4913,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/msr.svg"
   },
   {
@@ -5235,9 +4945,7 @@ const countries = [
         "symbol": "د.م."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mar.svg"
   },
   {
@@ -5269,9 +4977,7 @@ const countries = [
         "symbol": "MT"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/moz.svg"
   },
   {
@@ -5303,9 +5009,7 @@ const countries = [
         "symbol": "Ks"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mmr.svg"
   },
   {
@@ -5342,9 +5046,7 @@ const countries = [
         "symbol": "R"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nam.svg"
   },
   {
@@ -5381,9 +5083,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nru.svg"
   },
   {
@@ -5415,9 +5115,7 @@ const countries = [
         "symbol": "₨"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/npl.svg"
   },
   {
@@ -5449,9 +5147,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nld.svg"
   },
   {
@@ -5483,9 +5179,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ncl.svg"
   },
   {
@@ -5517,9 +5211,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nzl.svg"
   },
   {
@@ -5551,9 +5243,7 @@ const countries = [
         "symbol": "C$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nic.svg"
   },
   {
@@ -5585,9 +5275,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ner.svg"
   },
   {
@@ -5619,9 +5307,7 @@ const countries = [
         "symbol": "₦"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nga.svg"
   },
   {
@@ -5658,9 +5344,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/niu.svg"
   },
   {
@@ -5692,9 +5376,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nfk.svg"
   },
   {
@@ -5726,9 +5408,7 @@ const countries = [
         "symbol": "₩"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/prk.svg"
   },
   {
@@ -5760,9 +5440,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mnp.svg"
   },
   {
@@ -5794,9 +5472,7 @@ const countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nor.svg"
   },
   {
@@ -5828,9 +5504,7 @@ const countries = [
         "symbol": "ر.ع."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/omn.svg"
   },
   {
@@ -5862,9 +5536,7 @@ const countries = [
         "symbol": "₨"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pak.svg"
   },
   {
@@ -5901,9 +5573,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/plw.svg"
   },
   {
@@ -5935,9 +5605,7 @@ const countries = [
         "symbol": "₪"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pse.svg"
   },
   {
@@ -5974,9 +5642,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pan.svg"
   },
   {
@@ -6008,9 +5674,7 @@ const countries = [
         "symbol": "K"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/png.svg"
   },
   {
@@ -6042,9 +5706,7 @@ const countries = [
         "symbol": "₲"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pry.svg"
   },
   {
@@ -6076,9 +5738,7 @@ const countries = [
         "symbol": "S/."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/per.svg"
   },
   {
@@ -6110,9 +5770,7 @@ const countries = [
         "symbol": "₱"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/phl.svg"
   },
   {
@@ -6149,9 +5807,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pcn.svg"
   },
   {
@@ -6183,9 +5839,7 @@ const countries = [
         "symbol": "zł"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pol.svg"
   },
   {
@@ -6217,9 +5871,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/prt.svg"
   },
   {
@@ -6252,9 +5904,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pri.svg"
   },
   {
@@ -6286,9 +5936,7 @@ const countries = [
         "symbol": "ر.ق"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/qat.svg"
   },
   {
@@ -6320,9 +5968,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kos.svg"
   },
   {
@@ -6354,9 +6000,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/reu.svg"
   },
   {
@@ -6388,9 +6032,7 @@ const countries = [
         "symbol": "lei"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/rou.svg"
   },
   {
@@ -6422,9 +6064,7 @@ const countries = [
         "symbol": "₽"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/rus.svg"
   },
   {
@@ -6456,9 +6096,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/rwa.svg"
   },
   {
@@ -6490,9 +6128,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/blm.svg"
   },
   {
@@ -6524,9 +6160,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/shn.svg"
   },
   {
@@ -6558,9 +6192,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kna.svg"
   },
   {
@@ -6592,9 +6224,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lca.svg"
   },
   {
@@ -6628,9 +6258,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/maf.svg"
   },
   {
@@ -6662,9 +6290,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/spm.svg"
   },
   {
@@ -6696,9 +6322,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vct.svg"
   },
   {
@@ -6730,9 +6354,7 @@ const countries = [
         "symbol": "T"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/wsm.svg"
   },
   {
@@ -6764,9 +6386,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/smr.svg"
   },
   {
@@ -6798,9 +6418,7 @@ const countries = [
         "symbol": "Db"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/stp.svg"
   },
   {
@@ -6832,9 +6450,7 @@ const countries = [
         "symbol": "ر.س"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sau.svg"
   },
   {
@@ -6866,9 +6482,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sen.svg"
   },
   {
@@ -6900,9 +6514,7 @@ const countries = [
         "symbol": "дин."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/srb.svg"
   },
   {
@@ -6934,9 +6546,7 @@ const countries = [
         "symbol": "₨"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/syc.svg"
   },
   {
@@ -6968,9 +6578,7 @@ const countries = [
         "symbol": "Le"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sle.svg"
   },
   {
@@ -7007,9 +6615,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sgp.svg"
   },
   {
@@ -7041,9 +6647,7 @@ const countries = [
         "symbol": "ƒ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sxm.svg"
   },
   {
@@ -7075,9 +6679,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/svk.svg"
   },
   {
@@ -7109,9 +6711,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/svn.svg"
   },
   {
@@ -7143,9 +6743,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/slb.svg"
   },
   {
@@ -7177,9 +6775,7 @@ const countries = [
         "symbol": "Sh"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/som.svg"
   },
   {
@@ -7211,9 +6807,7 @@ const countries = [
         "symbol": "R"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/zaf.svg"
   },
   {
@@ -7250,9 +6844,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sgs.svg"
   },
   {
@@ -7284,9 +6876,7 @@ const countries = [
         "symbol": "₩"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kor.svg"
   },
   {
@@ -7318,9 +6908,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ssd.svg"
   },
   {
@@ -7352,9 +6940,7 @@ const countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/esp.svg"
   },
   {
@@ -7386,9 +6972,7 @@ const countries = [
         "symbol": "Rs"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lka.svg"
   },
   {
@@ -7420,9 +7004,7 @@ const countries = [
         "symbol": "ج.س."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sdn.svg"
   },
   {
@@ -7454,9 +7036,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sur.svg"
   },
   {
@@ -7488,9 +7068,7 @@ const countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sjm.svg"
   },
   {
@@ -7522,9 +7100,7 @@ const countries = [
         "symbol": "L"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/swz.svg"
   },
   {
@@ -7556,9 +7132,7 @@ const countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/swe.svg"
   },
   {
@@ -7590,9 +7164,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/che.svg"
   },
   {
@@ -7624,9 +7196,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/syr.svg"
   },
   {
@@ -7658,9 +7228,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/twn.svg"
   },
   {
@@ -7692,9 +7260,7 @@ const countries = [
         "symbol": "ЅМ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tjk.svg"
   },
   {
@@ -7726,9 +7292,7 @@ const countries = [
         "symbol": "Sh"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tza.svg"
   },
   {
@@ -7760,9 +7324,7 @@ const countries = [
         "symbol": "฿"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tha.svg"
   },
   {
@@ -7799,9 +7361,7 @@ const countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tls.svg"
   },
   {
@@ -7833,9 +7393,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tgo.svg"
   },
   {
@@ -7867,9 +7425,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tkl.svg"
   },
   {
@@ -7901,9 +7457,7 @@ const countries = [
         "symbol": "T$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ton.svg"
   },
   {
@@ -7935,9 +7489,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tto.svg"
   },
   {
@@ -7969,9 +7521,7 @@ const countries = [
         "symbol": "د.ت"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tun.svg"
   },
   {
@@ -8003,9 +7553,7 @@ const countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tur.svg"
   },
   {
@@ -8037,9 +7585,7 @@ const countries = [
         "symbol": "m"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tkm.svg"
   },
   {
@@ -8071,9 +7617,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tca.svg"
   },
   {
@@ -8110,9 +7654,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tuv.svg"
   },
   {
@@ -8144,9 +7686,7 @@ const countries = [
         "symbol": "Sh"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/uga.svg"
   },
   {
@@ -8178,9 +7718,7 @@ const countries = [
         "symbol": "₴"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ukr.svg"
   },
   {
@@ -8212,9 +7750,7 @@ const countries = [
         "symbol": "د.إ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/are.svg"
   },
   {
@@ -8246,9 +7782,7 @@ const countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gbr.svg"
   },
   {
@@ -8280,9 +7814,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/usa.svg"
   },
   {
@@ -8314,9 +7846,7 @@ const countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ury.svg"
   },
   {
@@ -8348,9 +7878,7 @@ const countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/uzb.svg"
   },
   {
@@ -8382,9 +7910,7 @@ const countries = [
         "symbol": "Vt"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vut.svg"
   },
   {
@@ -8416,9 +7942,7 @@ const countries = [
         "symbol": "Bs F"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ven.svg"
   },
   {
@@ -8450,9 +7974,7 @@ const countries = [
         "symbol": "₫"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vnm.svg"
   },
   {
@@ -8484,9 +8006,7 @@ const countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/wlf.svg"
   },
   {
@@ -8523,9 +8043,7 @@ const countries = [
         "symbol": "د.ج"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/esh.svg"
   },
   {
@@ -8557,9 +8075,7 @@ const countries = [
         "symbol": "﷼"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/yem.svg"
   },
   {
@@ -8591,9 +8107,7 @@ const countries = [
         "symbol": "ZK"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/zmb.svg"
   },
   {
@@ -8665,9 +8179,7 @@ const countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/zwe.svg"
   }
 ];

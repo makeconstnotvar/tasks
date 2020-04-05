@@ -6,12 +6,12 @@ class Page extends Component {
   yaMap = null;
   state = {
     code: "",
-    domain: "",
+    domains: [],
     population: "",
     area: "",
-    languages: "",
-    currency: "",
-    phone: "",
+    languages: [],
+    currencies: [],
+    phones: [],
     subregion: "",
     flag: "",
 
@@ -19,18 +19,24 @@ class Page extends Component {
 
   select = (country) => {
     this.update(country);
-    this.yaMap.setCenter(country.capital.latlng, 11);
+    let coodrinates, scale;
+    if (country.capital.latlng && country.capital.latlng.length)
+      [coodrinates, scale] = [country.capital.latlng, 11];
+    else
+      [coodrinates, scale] = [country.latlng, 6];
+
+    this.yaMap.setCenter(coodrinates, scale);
   };
 
   update = (country) => {
     this.setState({
       code: country.code,
-      domain: country.topLevelDomain[0],
+      domains: country.topLevelDomain,
       population: country.population,
       area: country.area,
       languages: country.languages,
-      currency: country.currencies[0],
-      phone: country.callingCodes[0],
+      currencies: country.currencies,
+      phones: country.callingCodes,
       subregion: country.subregion,
       flag: country.flag,
     });
@@ -50,7 +56,6 @@ class Page extends Component {
   render() {
     return (
       <div className="content">
-
         <div className="container ">
           <div className="jumbo">
             <h1>Справочник по географии</h1>
@@ -59,14 +64,61 @@ class Page extends Component {
           <div className="view">
             <div className="view-data">
               <div className="view-data-grid">
-                <div>{this.state.code}</div>
-                <div>{this.state.domain}</div>
-                <div>{this.state.population}</div>
-                <div>{this.state.area}</div>
-                <div>{this.state.languages}</div>
-                <div>{this.state.currency.name}</div>
-                <div>{this.state.phone}</div>
-                <div>{this.state.subregion}</div>
+                <div>
+                  <div>
+                    <div className="view-data-title">Код страны</div>
+                    <div className="view-data-value">{this.state.code}</div>
+                  </div>
+                  <i className="view-data-icon fa fa-times"/>
+                </div>
+                <div>
+                  <div>
+                    <div className="view-data-title">Основной домен</div>
+                    <div className="view-data-value">{this.state.domains.join(', ')}</div>
+                  </div>
+                  <i className="view-data-icon fa fa-times"/>
+                </div>
+                <div>
+                  <div>
+                    <div className="view-data-title">Население</div>
+                    <div className="view-data-value">{this.state.population}</div>
+                  </div>
+                  <i className="view-data-icon fa fa-times"/>
+                </div>
+                <div>
+                  <div>
+                    <div className="view-data-title">Территория</div>
+                    <div className="view-data-value">{this.state.area}</div>
+                  </div>
+                  <i className="view-data-icon fa fa-times"/>
+                </div>
+                <div>
+                  <div>
+                    <div className="view-data-title">Язык</div>
+                    <div className="view-data-value">{this.state.languages}</div>
+                  </div>
+                  <i className="view-data-icon fa fa-times"/>
+                </div>
+                <div>
+                  <div>
+                    <div className="view-data-title">Валюта</div>
+                    <div className="view-data-value">{this.state.currencies.map(c => c.name).join(', ')}</div>
+                  </div>
+                  <i className="view-data-icon fa fa-times"/>
+                </div>
+                <div>
+                  <div>
+                    <div className="view-data-title">Телефонный код</div>
+                    <div className="view-data-value">{this.state.phones.join(', ')}</div>
+                  </div>
+                  <i className="view-data-icon fa fa-times"/>
+                </div>
+                <div>
+                  <div>
+                    <div className="view-data-title">Регион</div>
+                    <div className="view-data-value">{this.state.subregion}</div>
+                  </div>
+                  <i className="view-data-icon fa fa-times"/></div>
               </div>
               <div className="view-data-flag">
                 <img src={this.state.flag} alt=""/>
