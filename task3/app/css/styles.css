@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  color: #444;
+}
+
+html, body, #root {
+  min-height: 100vh;
+}
+
+.content {
+  background: url("/img/ocean.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+}
+
+.jumbo {
+  padding: 30px 0;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.jumbo h1 {
+  font-size: 50px;
+}
+
+.jumbo p {
+  font-size: 26px;
+}
+
+.view {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 13px 74px -27px rgba(0, 0, 0, 0.75);
+}
+
+.view-data {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.view-data-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.view-data-flag {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.view-data-flag img{
+  width: 100%;
+  height: 100%;
+}
+
+.countries {
+  overflow-y: auto;
+  height: 600px;
+}
+
+.countries-item {
+  padding: 2px 4px;
+  display: flex;
+  cursor: pointer;
+}
+
+.countries-item:hover,
+.countries-item:active {
+  background-color: #cecece;
+}
+
+.countries-item .country {
+  font-weight: bold;
+}
+
+.countries-item .capital {
+  color: #777;
+  margin-left: auto;
+
+}
