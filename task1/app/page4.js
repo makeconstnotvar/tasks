@@ -30,15 +30,7 @@ class Page extends Component {
             <p>Немного более творческое решение</p>
             <div className="workers">
               {
-                workers.map((w, i) => (
-                  <div key={i} className={`worker`}>
-                    <div className="foto"><img src={`img/${w.gender}.png`} alt=""/></div>
-                    <div className="info">
-                      <div className="name">{w.name} {w.age} лет</div>
-                      <div>Должность: {w.position}</div>
-                    </div>
-                  </div>
-                ))
+                workers.map((w, i) => <Worker key={i} worker={w}/>)
               }
             </div>
           </div>
@@ -52,5 +44,17 @@ class Page extends Component {
     )
   }
 }
+
+const Worker = props => (
+  <div className={`worker`}>
+    <div className="foto">
+      <img src={`img/${props.worker.gender}.png`} alt=""/>
+    </div>
+    <div className="info">
+      <div className="name">{props.worker.name} {props.worker.age} лет</div>
+      <div>Должность: {props.worker.position}</div>
+    </div>
+  </div>
+)
 
 render(<Page/>, document.querySelector("#root"));
