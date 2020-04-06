@@ -12,15 +12,16 @@
   "author": "makeconstnotvar@protonmail.com",
   "license": "ISC",
   "dependencies": {
-    "node-static": "^0.7.11",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
     "@babel/core": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-decorators": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
-    "babel-loader": "^8.0.6"
+    "babel-loader": "^8.0.6",
+    "node-static": "^0.7.11",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }

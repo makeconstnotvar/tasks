@@ -10,63 +10,46 @@ class Page extends Component {
   constructor(props) {
     super(props);
     let c = first(countries) || {};
-    let [center, scale] = this.getMapData(c);
-    this.state = {
-      viewData: {
-        code: c.code,
-        domains: c.topLevelDomain,
-        population: c.population,
-        area: c.area,
-        languages: c.languages,
-        currencies: c.currencies,
-        phones: c.callingCodes,
-        subregion: c.subregion,
-        flag: c.flag,
-      },
-      mapData: {
-        center,
-        scale
-      }
-    }
+    this.state = this.getStateObj(c)
   }
 
   getMapData = (country) => {
-    //this.update(country);
-    let center, scale;
+    let center, zoom;
     if (country.capital.latlng && country.capital.latlng.length)
-      [center, scale] = [country.capital.latlng, 11];
+      [center, zoom] = [country.capital.latlng, 11];
     else
-      [center, scale] = [country.latlng, 6];
-    return [center, scale]
-    //this.yaMap.setCenter(coodrinates, scale);
+      [center, zoom] = [country.latlng, 6];
+    return [center, zoom]
   };
 
-  update = (country) => {
-    this.setState({
-      code: country.code,
-      domains: country.topLevelDomain,
-      population: country.population,
-      area: country.area,
-      languages: country.languages,
-      currencies: country.currencies,
-      phones: country.callingCodes,
-      subregion: country.subregion,
-      flag: country.flag,
-    });
+  onSelect = (country)=>{
+    let newState = this.getStateObj(country);
+    this.setState(newState)
   };
 
-  componentDidMount() {
-    window.ymaps.ready(() => {
-      this.yaMap = new window.ymaps.Map("map", {
-        center: countries[0].capital.latlng,
-        zoom: 11
-      });
-      this.update(countries[0])
-    });
-
-  }
+  getStateObj = (country) => {
+    let [center, zoom] = this.getMapData(country);
+    return {
+      viewData: {
+        code: country.code,
+        domains: country.topLevelDomain,
+        population: country.population,
+        area: country.area,
+        languages: country.languages,
+        currencies: country.currencies,
+        phones: country.callingCodes,
+        subregion: country.subregion,
+        flag: country.flag,
+      },
+      mapData: {
+        center,
+        zoom
+      }
+    }
+  };
 
   render() {
+    const {viewData, mapData} = this.state;
     return (
       <div className="content">
         <div className="container ">
@@ -75,9 +58,9 @@ class Page extends Component {
             <p>Полезная информация о странах</p>
           </div>
           <div className="view">
-            <ViewData {...this.state}/>
-            <ViewList countries={countries} select={this.select}/>
-            <ViewMap/>
+            <ViewData {...viewData}/>
+            <ViewList countries={countries} onSelect={this.onSelect}/>
+            <ViewMap {...mapData} />
           </div>
         </div>
       </div>
