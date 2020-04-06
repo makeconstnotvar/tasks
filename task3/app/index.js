@@ -1,9 +1,12 @@
 import React, {Component, Fragment} from "react";
 import {render} from "react-dom";
 import {countries} from "./countries";
+import {ViewList} from "./components/ViewList";
+import {ViewData} from "./components/ViewData";
+import {ViewMap} from "./components/ViewMap";
 
 class Page extends Component {
-  yaMap = null;
+
   state = {
     code: "",
     domains: [],
@@ -62,74 +65,9 @@ class Page extends Component {
             <p>Полезная информация о странах</p>
           </div>
           <div className="view">
-            <div className="view-data">
-              <div className="view-data-grid">
-                <div>
-                  <div>
-                    <div className="view-data-title">Код страны</div>
-                    <div className="view-data-value">{this.state.code}</div>
-                  </div>
-                  <i className="view-data-icon fa fa-times"/>
-                </div>
-                <div>
-                  <div>
-                    <div className="view-data-title">Основной домен</div>
-                    <div className="view-data-value">{this.state.domains.join(', ')}</div>
-                  </div>
-                  <i className="view-data-icon fa fa-times"/>
-                </div>
-                <div>
-                  <div>
-                    <div className="view-data-title">Население</div>
-                    <div className="view-data-value">{this.state.population}</div>
-                  </div>
-                  <i className="view-data-icon fa fa-times"/>
-                </div>
-                <div>
-                  <div>
-                    <div className="view-data-title">Территория</div>
-                    <div className="view-data-value">{this.state.area}</div>
-                  </div>
-                  <i className="view-data-icon fa fa-times"/>
-                </div>
-                <div>
-                  <div>
-                    <div className="view-data-title">Язык</div>
-                    <div className="view-data-value">{this.state.languages}</div>
-                  </div>
-                  <i className="view-data-icon fa fa-times"/>
-                </div>
-                <div>
-                  <div>
-                    <div className="view-data-title">Валюта</div>
-                    <div className="view-data-value">{this.state.currencies.map(c => c.name).join(', ')}</div>
-                  </div>
-                  <i className="view-data-icon fa fa-times"/>
-                </div>
-                <div>
-                  <div>
-                    <div className="view-data-title">Телефонный код</div>
-                    <div className="view-data-value">{this.state.phones.join(', ')}</div>
-                  </div>
-                  <i className="view-data-icon fa fa-times"/>
-                </div>
-                <div>
-                  <div>
-                    <div className="view-data-title">Регион</div>
-                    <div className="view-data-value">{this.state.subregion}</div>
-                  </div>
-                  <i className="view-data-icon fa fa-times"/></div>
-              </div>
-              <div className="view-data-flag">
-                <img src={this.state.flag} alt=""/>
-              </div>
-            </div>
-            <div className="countries">{
-              countries.map(c => (
-                <div key={c.code} className="countries-item" onClick={e => this.select(c)}><span className="country">{c.name}</span> <span className="capital">{c.capital.name}</span></div>
-              ))
-            }</div>
-            <div id="map"/>
+            <ViewData {...this.state}/>
+            <ViewList countries={countries} select={this.select}/>
+            <ViewMap/>
           </div>
         </div>
       </div>
