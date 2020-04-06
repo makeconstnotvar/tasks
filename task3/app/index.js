@@ -1,34 +1,44 @@
-import React, {Component, Fragment} from "react";
+import React, {Component} from "react";
 import {render} from "react-dom";
 import {countries} from "./countries";
 import {ViewList} from "./components/ViewList";
 import {ViewData} from "./components/ViewData";
 import {ViewMap} from "./components/ViewMap";
+import first from 'lodash/first'
 
 class Page extends Component {
+  constructor(props) {
+    super(props);
+    let c = first(countries) || {};
+    let [center, scale] = this.getMapData(c);
+    this.state = {
+      viewData: {
+        code: c.code,
+        domains: c.topLevelDomain,
+        population: c.population,
+        area: c.area,
+        languages: c.languages,
+        currencies: c.currencies,
+        phones: c.callingCodes,
+        subregion: c.subregion,
+        flag: c.flag,
+      },
+      mapData: {
+        center,
+        scale
+      }
+    }
+  }
 
-  state = {
-    code: "",
-    domains: [],
-    population: "",
-    area: "",
-    languages: [],
-    currencies: [],
-    phones: [],
-    subregion: "",
-    flag: "",
-
-  };
-
-  select = (country) => {
-    this.update(country);
-    let coodrinates, scale;
+  getMapData = (country) => {
+    //this.update(country);
+    let center, scale;
     if (country.capital.latlng && country.capital.latlng.length)
-      [coodrinates, scale] = [country.capital.latlng, 11];
+      [center, scale] = [country.capital.latlng, 11];
     else
-      [coodrinates, scale] = [country.latlng, 6];
-
-    this.yaMap.setCenter(coodrinates, scale);
+      [center, scale] = [country.latlng, 6];
+    return [center, scale]
+    //this.yaMap.setCenter(coodrinates, scale);
   };
 
   update = (country) => {
