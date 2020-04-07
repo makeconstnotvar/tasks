@@ -1,6 +1,6 @@
 const countries = [
   {
-    "name": "Russian Federation",
+    "name": "Российская федерация",
     "topLevelDomain": [
       ".ru"
     ],
@@ -9,7 +9,7 @@ const countries = [
       "7"
     ],
     "capital": {
-      "name": "Moscow",
+      "name": "Москва",
       "latlng": [55.7522, 37.6156],
       "alt":143
     },

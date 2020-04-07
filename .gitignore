@@ -1,6 +1,10 @@
-task1/node_modules
-task3/node_modules
-task1/app/build
-task3/app/build
+stage1/example/node_modules
+stage2/example/node_modules
+stage3/example/node_modules
+
+stage1/example/app/build
+stage2/example/app/build
+stage3/example/app/build
+
 npm-debug.log
 .idea

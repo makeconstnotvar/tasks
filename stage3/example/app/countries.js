@@ -1,4 +1,37 @@
-let countries = [
+const countries = [
+  {
+    "name": "Российская федерация",
+    "topLevelDomain": [
+      ".ru"
+    ],
+    "code": "RUS",
+    "callingCodes": [
+      "7"
+    ],
+    "capital": {
+      "name": "Москва",
+      "latlng": [55.7522, 37.6156],
+      "alt":143
+    },
+    "region": "Europe",
+    "subregion": "Восточная Европа",
+    "population": 146599183,
+    "latlng": [
+      60,
+      100
+    ],
+    "area": 17124442,
+    "numericCode": "643",
+    "currencies": [
+      {
+        "code": "RUB",
+        "name": "Рубль",
+        "symbol": "₽"
+      }
+    ],
+    "languages":"Русский",
+    "flag": "https://restcountries.eu/data/rus.svg"
+  },
   {
     "name": "Афганистан",
     "topLevelDomain": [
@@ -161,9 +194,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/asm.svg"
   },
   {
@@ -261,9 +292,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/aia.svg"
   },
   {
@@ -300,9 +329,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ata.svg"
   },
   {
@@ -334,9 +361,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/atg.svg"
   },
   {
@@ -368,9 +393,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/arg.svg"
   },
   {
@@ -402,9 +425,7 @@ let countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/arm.svg"
   },
   {
@@ -436,9 +457,7 @@ let countries = [
         "symbol": "ƒ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/abw.svg"
   },
   {
@@ -470,9 +489,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/aus.svg"
   },
   {
@@ -504,9 +521,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/aut.svg"
   },
   {
@@ -538,9 +553,7 @@ let countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/aze.svg"
   },
   {
@@ -572,9 +585,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bhs.svg"
   },
   {
@@ -606,9 +617,7 @@ let countries = [
         "symbol": ".د.ب"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bhr.svg"
   },
   {
@@ -640,9 +649,7 @@ let countries = [
         "symbol": "৳"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bgd.svg"
   },
   {
@@ -674,9 +681,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/brb.svg"
   },
   {
@@ -693,7 +698,7 @@ let countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 9498700,
     "latlng": [
       53,
@@ -713,9 +718,7 @@ let countries = [
         "symbol": "Br"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/blr.svg"
   },
   {
@@ -747,9 +750,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bel.svg"
   },
   {
@@ -781,9 +782,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/blz.svg"
   },
   {
@@ -815,9 +814,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ben.svg"
   },
   {
@@ -849,9 +846,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bmu.svg"
   },
   {
@@ -888,9 +883,7 @@ let countries = [
         "symbol": "₹"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/btn.svg"
   },
   {
@@ -922,9 +915,7 @@ let countries = [
         "symbol": "Bs."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bol.svg"
   },
   {
@@ -957,9 +948,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bes.svg"
   },
   {
@@ -991,9 +980,7 @@ let countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bih.svg"
   },
   {
@@ -1025,9 +1012,7 @@ let countries = [
         "symbol": "P"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bwa.svg"
   },
   {
@@ -1059,9 +1044,7 @@ let countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bvt.svg"
   },
   {
@@ -1093,9 +1076,7 @@ let countries = [
         "symbol": "R$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bra.svg"
   },
   {
@@ -1127,9 +1108,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/iot.svg"
   },
   {
@@ -1158,9 +1137,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/umi.svg"
   },
   {
@@ -1197,9 +1174,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vgb.svg"
   },
   {
@@ -1231,9 +1206,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vir.svg"
   },
   {
@@ -1270,9 +1243,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/brn.svg"
   },
   {
@@ -1289,7 +1260,7 @@ let countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 7153784,
     "latlng": [
       43,
@@ -1304,9 +1275,7 @@ let countries = [
         "symbol": "лв"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bgr.svg"
   },
   {
@@ -1338,9 +1307,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bfa.svg"
   },
   {
@@ -1372,9 +1339,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/bdi.svg"
   },
   {
@@ -1411,9 +1376,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/khm.svg"
   },
   {
@@ -1445,9 +1408,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cmr.svg"
   },
   {
@@ -1479,9 +1440,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/can.svg"
   },
   {
@@ -1513,9 +1472,7 @@ let countries = [
         "symbol": "Esc"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cpv.svg"
   },
   {
@@ -1547,9 +1504,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cym.svg"
   },
   {
@@ -1581,9 +1536,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/caf.svg"
   },
   {
@@ -1615,9 +1568,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tcd.svg"
   },
   {
@@ -1649,9 +1600,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/chl.svg"
   },
   {
@@ -1683,9 +1632,7 @@ let countries = [
         "symbol": "¥"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/chn.svg"
   },
   {
@@ -1717,9 +1664,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cxr.svg"
   },
   {
@@ -1751,9 +1696,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cck.svg"
   },
   {
@@ -1785,9 +1728,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/col.svg"
   },
   {
@@ -1819,9 +1760,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/com.svg"
   },
   {
@@ -1853,9 +1792,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cog.svg"
   },
   {
@@ -1887,9 +1824,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cod.svg"
   },
   {
@@ -1926,9 +1861,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cok.svg"
   },
   {
@@ -1960,9 +1893,7 @@ let countries = [
         "symbol": "₡"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cri.svg"
   },
   {
@@ -1994,9 +1925,7 @@ let countries = [
         "symbol": "kn"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hrv.svg"
   },
   {
@@ -2033,9 +1962,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cub.svg"
   },
   {
@@ -2067,9 +1994,7 @@ let countries = [
         "symbol": "ƒ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cuw.svg"
   },
   {
@@ -2101,9 +2026,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cyp.svg"
   },
   {
@@ -2120,7 +2043,7 @@ let countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 10558524,
     "latlng": [
       49.75,
@@ -2135,9 +2058,7 @@ let countries = [
         "symbol": "Kč"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/cze.svg"
   },
   {
@@ -2169,9 +2090,7 @@ let countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/dnk.svg"
   },
   {
@@ -2203,9 +2122,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/dji.svg"
   },
   {
@@ -2237,9 +2154,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/dma.svg"
   },
   {
@@ -2273,9 +2188,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/dom.svg"
   },
   {
@@ -2307,9 +2220,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ecu.svg"
   },
   {
@@ -2341,9 +2252,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/egy.svg"
   },
   {
@@ -2375,9 +2284,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/slv.svg"
   },
   {
@@ -2409,9 +2316,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gnq.svg"
   },
   {
@@ -2443,9 +2348,7 @@ let countries = [
         "symbol": "Nfk"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/eri.svg"
   },
   {
@@ -2477,9 +2380,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/est.svg"
   },
   {
@@ -2511,9 +2412,7 @@ let countries = [
         "symbol": "Br"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/eth.svg"
   },
   {
@@ -2545,9 +2444,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/flk.svg"
   },
   {
@@ -2584,9 +2481,7 @@ let countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/fro.svg"
   },
   {
@@ -2618,9 +2513,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/fji.svg"
   },
   {
@@ -2652,9 +2545,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/fin.svg"
   },
   {
@@ -2686,9 +2577,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/fra.svg"
   },
   {
@@ -2720,9 +2609,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/guf.svg"
   },
   {
@@ -2754,9 +2641,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pyf.svg"
   },
   {
@@ -2788,9 +2673,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/atf.svg"
   },
   {
@@ -2822,9 +2705,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gab.svg"
   },
   {
@@ -2856,9 +2737,7 @@ let countries = [
         "symbol": "D"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gmb.svg"
   },
   {
@@ -2890,9 +2769,7 @@ let countries = [
         "symbol": "ლ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/geo.svg"
   },
   {
@@ -2924,9 +2801,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/deu.svg"
   },
   {
@@ -2958,9 +2833,7 @@ let countries = [
         "symbol": "₵"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gha.svg"
   },
   {
@@ -2992,9 +2865,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gib.svg"
   },
   {
@@ -3026,9 +2897,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/grc.svg"
   },
   {
@@ -3060,9 +2929,7 @@ let countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/grl.svg"
   },
   {
@@ -3094,9 +2961,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/grd.svg"
   },
   {
@@ -3128,9 +2993,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/glp.svg"
   },
   {
@@ -3162,9 +3025,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gum.svg"
   },
   {
@@ -3196,9 +3057,7 @@ let countries = [
         "symbol": "Q"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gtm.svg"
   },
   {
@@ -3235,9 +3094,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ggy.svg"
   },
   {
@@ -3269,9 +3126,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gin.svg"
   },
   {
@@ -3303,9 +3158,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gnb.svg"
   },
   {
@@ -3337,9 +3190,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/guy.svg"
   },
   {
@@ -3371,9 +3222,7 @@ let countries = [
         "symbol": "G"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hti.svg"
   },
   {
@@ -3406,9 +3255,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hmd.svg"
   },
   {
@@ -3440,9 +3287,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vat.svg"
   },
   {
@@ -3474,9 +3319,7 @@ let countries = [
         "symbol": "L"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hnd.svg"
   },
   {
@@ -3508,9 +3351,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hkg.svg"
   },
   {
@@ -3527,7 +3368,7 @@ let countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 9823000,
     "latlng": [
       47,
@@ -3542,9 +3383,7 @@ let countries = [
         "symbol": "Ft"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/hun.svg"
   },
   {
@@ -3576,9 +3415,7 @@ let countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/isl.svg"
   },
   {
@@ -3610,9 +3447,7 @@ let countries = [
         "symbol": "₹"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ind.svg"
   },
   {
@@ -3644,9 +3479,7 @@ let countries = [
         "symbol": "Rp"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/idn.svg"
   },
   {
@@ -3678,9 +3511,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/civ.svg"
   },
   {
@@ -3712,9 +3543,7 @@ let countries = [
         "symbol": "﷼"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/irn.svg"
   },
   {
@@ -3746,9 +3575,7 @@ let countries = [
         "symbol": "ع.د"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/irq.svg"
   },
   {
@@ -3780,9 +3607,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/irl.svg"
   },
   {
@@ -3819,9 +3644,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/imn.svg"
   },
   {
@@ -3853,9 +3676,7 @@ let countries = [
         "symbol": "₪"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/isr.svg"
   },
   {
@@ -3887,9 +3708,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ita.svg"
   },
   {
@@ -3921,9 +3740,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/jam.svg"
   },
   {
@@ -3955,9 +3772,7 @@ let countries = [
         "symbol": "¥"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/jpn.svg"
   },
   {
@@ -3994,9 +3809,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/jey.svg"
   },
   {
@@ -4028,9 +3841,7 @@ let countries = [
         "symbol": "د.ا"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/jor.svg"
   },
   {
@@ -4064,9 +3875,7 @@ let countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kaz.svg"
   },
   {
@@ -4098,9 +3907,7 @@ let countries = [
         "symbol": "Sh"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ken.svg"
   },
   {
@@ -4137,9 +3944,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kir.svg"
   },
   {
@@ -4171,9 +3976,7 @@ let countries = [
         "symbol": "د.ك"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kwt.svg"
   },
   {
@@ -4205,9 +4008,7 @@ let countries = [
         "symbol": "с"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kgz.svg"
   },
   {
@@ -4239,9 +4040,7 @@ let countries = [
         "symbol": "₭"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lao.svg"
   },
   {
@@ -4273,9 +4072,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lva.svg"
   },
   {
@@ -4307,9 +4104,7 @@ let countries = [
         "symbol": "ل.ل"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lbn.svg"
   },
   {
@@ -4346,9 +4141,7 @@ let countries = [
         "symbol": "R"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lso.svg"
   },
   {
@@ -4380,9 +4173,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lbr.svg"
   },
   {
@@ -4414,9 +4205,7 @@ let countries = [
         "symbol": "ل.د"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lby.svg"
   },
   {
@@ -4448,9 +4237,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lie.svg"
   },
   {
@@ -4482,9 +4269,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ltu.svg"
   },
   {
@@ -4516,9 +4301,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lux.svg"
   },
   {
@@ -4550,9 +4333,7 @@ let countries = [
         "symbol": "P"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mac.svg"
   },
   {
@@ -4584,9 +4365,7 @@ let countries = [
         "symbol": "ден"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mkd.svg"
   },
   {
@@ -4618,9 +4397,7 @@ let countries = [
         "symbol": "Ar"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mdg.svg"
   },
   {
@@ -4652,9 +4429,7 @@ let countries = [
         "symbol": "MK"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mwi.svg"
   },
   {
@@ -4686,9 +4461,7 @@ let countries = [
         "symbol": "RM"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mys.svg"
   },
   {
@@ -4720,9 +4493,7 @@ let countries = [
         "symbol": ".ރ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mdv.svg"
   },
   {
@@ -4754,9 +4525,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mli.svg"
   },
   {
@@ -4788,9 +4557,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mlt.svg"
   },
   {
@@ -4822,9 +4589,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mhl.svg"
   },
   {
@@ -4856,9 +4621,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mtq.svg"
   },
   {
@@ -4890,9 +4653,7 @@ let countries = [
         "symbol": "UM"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mrt.svg"
   },
   {
@@ -4924,9 +4685,7 @@ let countries = [
         "symbol": "₨"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mus.svg"
   },
   {
@@ -4958,9 +4717,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/myt.svg"
   },
   {
@@ -4992,9 +4749,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mex.svg"
   },
   {
@@ -5031,9 +4786,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/fsm.svg"
   },
   {
@@ -5050,7 +4803,7 @@ let countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 3553100,
     "latlng": [
       47,
@@ -5065,9 +4818,7 @@ let countries = [
         "symbol": "L"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mda.svg"
   },
   {
@@ -5099,9 +4850,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mco.svg"
   },
   {
@@ -5133,9 +4882,7 @@ let countries = [
         "symbol": "₮"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mng.svg"
   },
   {
@@ -5167,9 +4914,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mne.svg"
   },
   {
@@ -5201,9 +4946,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/msr.svg"
   },
   {
@@ -5235,9 +4978,7 @@ let countries = [
         "symbol": "د.م."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mar.svg"
   },
   {
@@ -5269,9 +5010,7 @@ let countries = [
         "symbol": "MT"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/moz.svg"
   },
   {
@@ -5303,9 +5042,7 @@ let countries = [
         "symbol": "Ks"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mmr.svg"
   },
   {
@@ -5342,9 +5079,7 @@ let countries = [
         "symbol": "R"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nam.svg"
   },
   {
@@ -5381,9 +5116,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nru.svg"
   },
   {
@@ -5415,9 +5148,7 @@ let countries = [
         "symbol": "₨"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/npl.svg"
   },
   {
@@ -5449,9 +5180,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nld.svg"
   },
   {
@@ -5483,9 +5212,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ncl.svg"
   },
   {
@@ -5517,9 +5244,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nzl.svg"
   },
   {
@@ -5551,9 +5276,7 @@ let countries = [
         "symbol": "C$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nic.svg"
   },
   {
@@ -5585,9 +5308,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ner.svg"
   },
   {
@@ -5619,9 +5340,7 @@ let countries = [
         "symbol": "₦"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nga.svg"
   },
   {
@@ -5658,9 +5377,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/niu.svg"
   },
   {
@@ -5692,9 +5409,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nfk.svg"
   },
   {
@@ -5726,9 +5441,7 @@ let countries = [
         "symbol": "₩"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/prk.svg"
   },
   {
@@ -5760,9 +5473,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/mnp.svg"
   },
   {
@@ -5794,9 +5505,7 @@ let countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/nor.svg"
   },
   {
@@ -5828,9 +5537,7 @@ let countries = [
         "symbol": "ر.ع."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/omn.svg"
   },
   {
@@ -5862,9 +5569,7 @@ let countries = [
         "symbol": "₨"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pak.svg"
   },
   {
@@ -5901,9 +5606,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/plw.svg"
   },
   {
@@ -5935,9 +5638,7 @@ let countries = [
         "symbol": "₪"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pse.svg"
   },
   {
@@ -5974,9 +5675,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pan.svg"
   },
   {
@@ -6008,9 +5707,7 @@ let countries = [
         "symbol": "K"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/png.svg"
   },
   {
@@ -6042,9 +5739,7 @@ let countries = [
         "symbol": "₲"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pry.svg"
   },
   {
@@ -6076,9 +5771,7 @@ let countries = [
         "symbol": "S/."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/per.svg"
   },
   {
@@ -6110,9 +5803,7 @@ let countries = [
         "symbol": "₱"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/phl.svg"
   },
   {
@@ -6149,9 +5840,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pcn.svg"
   },
   {
@@ -6168,7 +5857,7 @@ let countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 38437239,
     "latlng": [
       52,
@@ -6183,9 +5872,7 @@ let countries = [
         "symbol": "zł"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pol.svg"
   },
   {
@@ -6217,9 +5904,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/prt.svg"
   },
   {
@@ -6252,9 +5937,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/pri.svg"
   },
   {
@@ -6286,9 +5969,7 @@ let countries = [
         "symbol": "ر.ق"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/qat.svg"
   },
   {
@@ -6305,7 +5986,7 @@ let countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 1733842,
     "latlng": [
       42.666667,
@@ -6320,9 +6001,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kos.svg"
   },
   {
@@ -6354,9 +6033,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/reu.svg"
   },
   {
@@ -6373,7 +6050,7 @@ let countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 19861408,
     "latlng": [
       46,
@@ -6388,45 +6065,10 @@ let countries = [
         "symbol": "lei"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/rou.svg"
   },
-  {
-    "name": "Russian Federation",
-    "topLevelDomain": [
-      ".ru"
-    ],
-    "code": "RUS",
-    "callingCodes": [
-      "7"
-    ],
-    "capital": {
-      "name": "Moscow",
-      "latlng": []
-    },
-    "region": "Europe",
-    "subregion": "Eastern Europe",
-    "population": 146599183,
-    "latlng": [
-      60,
-      100
-    ],
-    "area": 17124442,
-    "numericCode": "643",
-    "currencies": [
-      {
-        "code": "RUB",
-        "name": "Russian ruble",
-        "symbol": "₽"
-      }
-    ],
-    "languages": {
-      "name": ""
-    },
-    "flag": "https://restcountries.eu/data/rus.svg"
-  },
+
   {
     "name": "Rwanda",
     "topLevelDomain": [
@@ -6456,9 +6098,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/rwa.svg"
   },
   {
@@ -6490,9 +6130,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/blm.svg"
   },
   {
@@ -6524,9 +6162,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/shn.svg"
   },
   {
@@ -6558,9 +6194,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kna.svg"
   },
   {
@@ -6592,9 +6226,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lca.svg"
   },
   {
@@ -6628,9 +6260,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/maf.svg"
   },
   {
@@ -6662,9 +6292,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/spm.svg"
   },
   {
@@ -6696,9 +6324,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vct.svg"
   },
   {
@@ -6730,9 +6356,7 @@ let countries = [
         "symbol": "T"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/wsm.svg"
   },
   {
@@ -6764,9 +6388,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/smr.svg"
   },
   {
@@ -6798,9 +6420,7 @@ let countries = [
         "symbol": "Db"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/stp.svg"
   },
   {
@@ -6832,9 +6452,7 @@ let countries = [
         "symbol": "ر.س"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sau.svg"
   },
   {
@@ -6866,9 +6484,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sen.svg"
   },
   {
@@ -6900,9 +6516,7 @@ let countries = [
         "symbol": "дин."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/srb.svg"
   },
   {
@@ -6934,9 +6548,7 @@ let countries = [
         "symbol": "₨"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/syc.svg"
   },
   {
@@ -6968,9 +6580,7 @@ let countries = [
         "symbol": "Le"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sle.svg"
   },
   {
@@ -7007,9 +6617,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sgp.svg"
   },
   {
@@ -7041,9 +6649,7 @@ let countries = [
         "symbol": "ƒ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sxm.svg"
   },
   {
@@ -7060,7 +6666,7 @@ let countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 5426252,
     "latlng": [
       48.66666666,
@@ -7075,9 +6681,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/svk.svg"
   },
   {
@@ -7109,9 +6713,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/svn.svg"
   },
   {
@@ -7143,9 +6745,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/slb.svg"
   },
   {
@@ -7177,9 +6777,7 @@ let countries = [
         "symbol": "Sh"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/som.svg"
   },
   {
@@ -7211,9 +6809,7 @@ let countries = [
         "symbol": "R"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/zaf.svg"
   },
   {
@@ -7250,9 +6846,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sgs.svg"
   },
   {
@@ -7284,9 +6878,7 @@ let countries = [
         "symbol": "₩"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/kor.svg"
   },
   {
@@ -7318,9 +6910,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ssd.svg"
   },
   {
@@ -7352,9 +6942,7 @@ let countries = [
         "symbol": "€"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/esp.svg"
   },
   {
@@ -7386,9 +6974,7 @@ let countries = [
         "symbol": "Rs"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/lka.svg"
   },
   {
@@ -7420,9 +7006,7 @@ let countries = [
         "symbol": "ج.س."
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sdn.svg"
   },
   {
@@ -7454,9 +7038,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sur.svg"
   },
   {
@@ -7488,9 +7070,7 @@ let countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/sjm.svg"
   },
   {
@@ -7522,9 +7102,7 @@ let countries = [
         "symbol": "L"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/swz.svg"
   },
   {
@@ -7556,9 +7134,7 @@ let countries = [
         "symbol": "kr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/swe.svg"
   },
   {
@@ -7590,9 +7166,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/che.svg"
   },
   {
@@ -7624,9 +7198,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/syr.svg"
   },
   {
@@ -7658,9 +7230,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/twn.svg"
   },
   {
@@ -7692,9 +7262,7 @@ let countries = [
         "symbol": "ЅМ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tjk.svg"
   },
   {
@@ -7726,9 +7294,7 @@ let countries = [
         "symbol": "Sh"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tza.svg"
   },
   {
@@ -7760,9 +7326,7 @@ let countries = [
         "symbol": "฿"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tha.svg"
   },
   {
@@ -7799,9 +7363,7 @@ let countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tls.svg"
   },
   {
@@ -7833,9 +7395,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tgo.svg"
   },
   {
@@ -7867,9 +7427,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tkl.svg"
   },
   {
@@ -7901,9 +7459,7 @@ let countries = [
         "symbol": "T$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ton.svg"
   },
   {
@@ -7935,9 +7491,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tto.svg"
   },
   {
@@ -7969,9 +7523,7 @@ let countries = [
         "symbol": "د.ت"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tun.svg"
   },
   {
@@ -8003,9 +7555,7 @@ let countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tur.svg"
   },
   {
@@ -8037,9 +7587,7 @@ let countries = [
         "symbol": "m"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tkm.svg"
   },
   {
@@ -8071,9 +7619,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tca.svg"
   },
   {
@@ -8110,9 +7656,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/tuv.svg"
   },
   {
@@ -8144,9 +7688,7 @@ let countries = [
         "symbol": "Sh"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/uga.svg"
   },
   {
@@ -8163,7 +7705,7 @@ let countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 42692393,
     "latlng": [
       49,
@@ -8178,9 +7720,7 @@ let countries = [
         "symbol": "₴"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ukr.svg"
   },
   {
@@ -8212,9 +7752,7 @@ let countries = [
         "symbol": "د.إ"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/are.svg"
   },
   {
@@ -8246,9 +7784,7 @@ let countries = [
         "symbol": "£"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/gbr.svg"
   },
   {
@@ -8280,9 +7816,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/usa.svg"
   },
   {
@@ -8314,9 +7848,7 @@ let countries = [
         "symbol": "$"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ury.svg"
   },
   {
@@ -8348,9 +7880,7 @@ let countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/uzb.svg"
   },
   {
@@ -8382,9 +7912,7 @@ let countries = [
         "symbol": "Vt"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vut.svg"
   },
   {
@@ -8416,9 +7944,7 @@ let countries = [
         "symbol": "Bs F"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/ven.svg"
   },
   {
@@ -8450,9 +7976,7 @@ let countries = [
         "symbol": "₫"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/vnm.svg"
   },
   {
@@ -8484,9 +8008,7 @@ let countries = [
         "symbol": "Fr"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/wlf.svg"
   },
   {
@@ -8523,9 +8045,7 @@ let countries = [
         "symbol": "د.ج"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/esh.svg"
   },
   {
@@ -8557,9 +8077,7 @@ let countries = [
         "symbol": "﷼"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/yem.svg"
   },
   {
@@ -8591,9 +8109,7 @@ let countries = [
         "symbol": "ZK"
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/zmb.svg"
   },
   {
@@ -8665,9 +8181,7 @@ let countries = [
         "symbol": null
       }
     ],
-    "languages": {
-      "name": ""
-    },
+    "languages":"",
     "flag": "https://restcountries.eu/data/zwe.svg"
   }
 ];
