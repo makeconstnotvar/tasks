@@ -44,7 +44,8 @@
 center - координаты latlng  
 zoom - масштаб, для города можно использовать число 11, для страны 6  
 Координаты столиц можно [тут посмотреть](https://time-in.ru/coordinates)  
-[Сайт](https://yandex.ru/map-constructor/location-tool), чтобы самостоятельно определить координаты
+[Сайт](https://yandex.ru/map-constructor/location-tool), чтобы самостоятельно определить координаты  
+
 ###Ожидаемый результат
 
 ![](example.png)
