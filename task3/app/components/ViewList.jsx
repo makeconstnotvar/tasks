@@ -5,7 +5,9 @@ const ViewList = props => {
   return (
     <div className="countries">{
       props.countries.map(c => (
-        <div key={c.code} className="countries-item" onClick={e => props.onSelect(c)}><span className="country">{c.name}</span> <span className="capital">{c.capital.name}</span></div>
+        <div key={c.code} className={`countries-item ${props.selected == c.code ? 'active' : ''}`} onClick={e => props.onSelect(c)}>
+          <span className="country">{c.name}</span> <span className="capital">{c.capital.name}</span>
+        </div>
       ))
     }</div>
   )

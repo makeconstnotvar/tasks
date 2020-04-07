@@ -1,5 +1,38 @@
 const countries = [
   {
+    "name": "Russian Federation",
+    "topLevelDomain": [
+      ".ru"
+    ],
+    "code": "RUS",
+    "callingCodes": [
+      "7"
+    ],
+    "capital": {
+      "name": "Moscow",
+      "latlng": [55.7522, 37.6156],
+      "alt":143
+    },
+    "region": "Europe",
+    "subregion": "Восточная Европа",
+    "population": 146599183,
+    "latlng": [
+      60,
+      100
+    ],
+    "area": 17124442,
+    "numericCode": "643",
+    "currencies": [
+      {
+        "code": "RUB",
+        "name": "Рубль",
+        "symbol": "₽"
+      }
+    ],
+    "languages":"Русский",
+    "flag": "https://restcountries.eu/data/rus.svg"
+  },
+  {
     "name": "Афганистан",
     "topLevelDomain": [
       ".af"
@@ -665,7 +698,7 @@ const countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 9498700,
     "latlng": [
       53,
@@ -1227,7 +1260,7 @@ const countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 7153784,
     "latlng": [
       43,
@@ -2010,7 +2043,7 @@ const countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 10558524,
     "latlng": [
       49.75,
@@ -3335,7 +3368,7 @@ const countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 9823000,
     "latlng": [
       47,
@@ -4770,7 +4803,7 @@ const countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 3553100,
     "latlng": [
       47,
@@ -5824,7 +5857,7 @@ const countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 38437239,
     "latlng": [
       52,
@@ -5953,7 +5986,7 @@ const countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 1733842,
     "latlng": [
       42.666667,
@@ -6017,7 +6050,7 @@ const countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 19861408,
     "latlng": [
       46,
@@ -6035,38 +6068,7 @@ const countries = [
     "languages":"",
     "flag": "https://restcountries.eu/data/rou.svg"
   },
-  {
-    "name": "Russian Federation",
-    "topLevelDomain": [
-      ".ru"
-    ],
-    "code": "RUS",
-    "callingCodes": [
-      "7"
-    ],
-    "capital": {
-      "name": "Moscow",
-      "latlng": []
-    },
-    "region": "Europe",
-    "subregion": "Eastern Europe",
-    "population": 146599183,
-    "latlng": [
-      60,
-      100
-    ],
-    "area": 17124442,
-    "numericCode": "643",
-    "currencies": [
-      {
-        "code": "RUB",
-        "name": "Russian ruble",
-        "symbol": "₽"
-      }
-    ],
-    "languages":"",
-    "flag": "https://restcountries.eu/data/rus.svg"
-  },
+
   {
     "name": "Rwanda",
     "topLevelDomain": [
@@ -6664,7 +6666,7 @@ const countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 5426252,
     "latlng": [
       48.66666666,
@@ -7703,7 +7705,7 @@ const countries = [
       "latlng": []
     },
     "region": "Europe",
-    "subregion": "Eastern Europe",
+    "subregion": "Восточная Европа",
     "population": 42692393,
     "latlng": [
       49,

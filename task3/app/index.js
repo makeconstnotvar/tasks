@@ -22,7 +22,7 @@ class Page extends Component {
     return [center, zoom]
   };
 
-  onSelect = (country)=>{
+  onSelect = (country) => {
     let newState = this.getStateObj(country);
     this.setState(newState)
   };
@@ -30,6 +30,7 @@ class Page extends Component {
   getStateObj = (country) => {
     let [center, zoom] = this.getMapData(country);
     return {
+      selected: country.code,
       viewData: {
         code: country.code,
         domains: country.topLevelDomain,
@@ -49,19 +50,17 @@ class Page extends Component {
   };
 
   render() {
-    const {viewData, mapData} = this.state;
+    const {viewData, mapData, selected} = this.state;
     return (
-      <div className="content">
-        <div className="container ">
-          <div className="jumbo">
-            <h1>Справочник по географии</h1>
-            <p>Полезная информация о странах</p>
-          </div>
-          <div className="view">
-            <ViewData {...viewData}/>
-            <ViewList countries={countries} onSelect={this.onSelect}/>
-            <ViewMap {...mapData} />
-          </div>
+      <div className="container ">
+        <div className="jumbo">
+          <h1>Справочник по географии</h1>
+          <p>Полезная информация о странах</p>
+        </div>
+        <div className="view">
+          <ViewData {...viewData}/>
+          <ViewList countries={countries} selected={selected} onSelect={this.onSelect}/>
+          <ViewMap {...mapData} />
         </div>
       </div>
     )

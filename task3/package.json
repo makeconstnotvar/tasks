@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch": "webpack --progress --watch",
     "start": "static app",
-    "build": "webpack --progress",
-    "watch": "webpack --progress --watch"
+    "build": "webpack --progress"
   },
   "keywords": [],
   "author": "makeconstnotvar@protonmail.com",
