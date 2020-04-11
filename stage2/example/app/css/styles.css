@@ -1,0 +1,62 @@
+
+* {
+  /* способ определения размеров тегов */
+  box-sizing: border-box;
+}
+
+html {
+  /* избегаем скачка ширины при появлении скролла*/
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  color: #444;
+}
+
+html, body, #root {
+  /* vh - процент от размер "вьюпорта", можно понимать как от размер окна*/
+  min-height: 100vh;
+}
+
+.container {
+  /* контент по центру */
+  max-width: 1280px;
+  margin: auto;
+}
+
+#root {
+  /* grid по смыслу похож на таблицу, но со специфическими стилями, расчитанными на построение лайаута (layout) */
+  display: grid;
+  grid-template-rows: 60px 1fr 60px;
+}
+
+.header {
+  background-color: #2b2f40;
+}
+
+.header-item {
+  display: inline-block;
+  /* легкий способ задать высоту и центрировать по высоте */
+  line-height: 60px;
+  color: white;
+  text-decoration: none;
+}
+
+.header-item.brand {
+  margin-right: 15px;
+}
+/* not значит "все .header-item кроме .brand" */
+.header-item:not(.brand) {
+  padding: 0 20px;
+}
+/* hover событие наведение мышки*/
+.header-item:not(.brand):hover {
+  background-color: #C2554F;
+}
+
+.footer {
+  background-color: #2b2f40;
+  line-height: 60px;
+  color: white;
+}

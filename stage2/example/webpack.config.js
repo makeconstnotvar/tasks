@@ -3,7 +3,9 @@ let path = require('path');
 module.exports = {
   mode: "development",
   devtool: "source-map",
-  entry: {index:'./app/index.js'},
+  entry: {
+    index: './app/index.js'
+  },
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'app/build'),
@@ -17,7 +19,11 @@ module.exports = {
       }
     ]
   },
-  resolve:{
-    extensions:['.js','.jsx']
+  resolve: {
+    extensions: ['.js', '.jsx'],
+    modules: [
+      "./node_modules",
+      "./app"
+    ]
   }
 };
