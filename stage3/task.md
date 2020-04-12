@@ -37,13 +37,15 @@
 
 **Раздел "Карта"**  
 Вывести карту (например Яндекс карту), сфокусировать ее на координатах, которые можно взять 
-в `countries.js` в поле `latlng`. В некоторых строках есть координаты столицы `countries[0].capital.latlng`
+в `countries.js` в поле `latlng`. Для некоторых стран есть координаты столицы `countries[0].capital.latlng`
+Координаты столиц можно [тут посмотреть](https://time-in.ru/coordinates)
 Во всех есть координаты центра страны `countries[0].latlng`  
 Для установки яндекс карты воспользоваться [инструкцией](https://tech.yandex.ru/maps/jsapi/doc/2.1/quick-start/index-docpage)  
 Экземпляр карты использует 2 аргумента {center,zoom}.   
 center - координаты latlng  
-zoom - масштаб, для города можно использовать число 11, для страны 6  
-Координаты столиц можно [тут посмотреть](https://time-in.ru/coordinates)  
+zoom - масштаб, для города можно использовать число 11, для страны 6, можно вычислить размер zoom в зависимости от площади  
+Для обновления координат можно вызвать [функцию](https://tech.yandex.ru/maps/jsapi/doc/2.1/ref/reference/Map-docpage) `setCenter(center, zoom)`
+  
 [Сайт](https://yandex.ru/map-constructor/location-tool), чтобы самостоятельно определить координаты  
 
 **Ожидаемый результат:**
