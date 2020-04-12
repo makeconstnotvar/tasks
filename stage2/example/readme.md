@@ -1,10 +1,13 @@
 ### Пример решения задания 2
-
-Для запуска перейти в директорию `/stage2/example/`, установить npm пакеты, собрать приложение, запустить сервер `node-static` 
-
-Используя консоль\терминал:
+C помощью [git](https://git-scm.com/) забрать весь репозиторий себе 
 ```
-cd stage2/example
+git clone https://github.com/makeconstnotvar/tasks
+```
+
+Перейти в директорию `/tasks/stage2/example`, установить npm пакеты, собрать приложение, запустить сервер `node-static`  
+
+```
+cd tasks/stage2/example
 npm install
 npm run build
 npm run start

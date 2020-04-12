@@ -1,8 +1,6 @@
 ### Задачи для изучения Javascript
 
-Javascript, HTML, CSS, Node, React, Router, Webpack, Gulp, Maps, Mongo, Mongoose, Lodash, Axios, Express, Pug, Bootstrap 
-
-Задания не обязательно выполнять буквально, можно проявить инициативу. Цель - реализуя самые типичные из решений столкнуться со сложностями и задуматься, как их решить красиво.
+Javascript, HTML, CSS, Node, React, Router, Webpack, Babel, Gulp, Maps, Mongo, Mongoose, Lodash, Axios, Express, Pug, Bootstrap, SASS  
 
 [Задание 1](stage1/task.md)  
 [Задание 2](stage2/task.md)  
