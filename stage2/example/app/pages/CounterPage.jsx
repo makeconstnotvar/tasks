@@ -1,15 +1,40 @@
-import React from "react";
+import React, {Component} from "react";
 
-const CounterPage = props => {
-  return (
-    <div className="jumbo">
+
+class CounterPage extends Component {
+  timer = null;
+  limit = 5;
+
+  state = {
+    count: 0
+  };
+
+  componentDidMount() {
+    this.timer = setInterval(() => {
+      this.setState({count: this.state.count + 1})
+    }, 1000);
+  }
+
+  reset = () => {
+    this.setState({count: 0})
+  };
+
+  componentWillUnmount() {
+    clearInterval(this.timer)
+  }
+
+  render() {
+    let {count} = this.state;
+    return (
       <div className="container">
-        <h1>Счетчик</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h1>Счетчик: {count}</h1>
+        {
+          count > this.limit &&
+          <div>Счетчик больше {this.limit}! <button onClick={this.reset}>Сборосить</button></div>
+        }
       </div>
-    </div>
-  )
+    )
+  }
 }
+
 export {CounterPage}
