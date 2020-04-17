@@ -6,22 +6,26 @@ import {useLocation} from "@reach/router";
 
 const UsersPageAlt = props => {
   const location = useLocation();
-  let query = qs.parse(location.search, {ignoreQueryPrefix: true});
+  let {id} = qs.parse(location.search, {ignoreQueryPrefix: true});
 
   let [filtered, updateFiltered] = useState(users)
   let [text, updateText] = useState("");
   let searchLogin = text.trim().toLowerCase();
-  //useEffect(() => {
-    //if (query.id) {
-      //let result = users.filter(user => user.id === +query.id)
-      //updateFiltered(result);
-    //}
 
-    //if (searchLogin) {
-     // let result = users.filter(user => user.login.includes(searchLogin))
-    //  updateFiltered(result);
-    //}
-  //})
+  useEffect(() => {
+    if (id) {
+      let result = users.filter(user => user.id === +id)
+      updateFiltered(result);
+    }
+  },[id])
+
+  useEffect(() => {
+    if (searchLogin) {
+     let result = users.filter(user => user.login.includes(searchLogin))
+     updateFiltered(result);
+    }
+  },[searchLogin])
+
   return (
     <div className="container">
       <h1>Пользователи Github (Func Component)</h1>
