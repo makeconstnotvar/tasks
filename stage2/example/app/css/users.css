@@ -1,31 +1,32 @@
 
+
 .users {
   margin-bottom: 50px;
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px;
-  grid-gap: 30px;
+  grid-template-columns: 230px 230px 230px 230px;
+  grid-gap: 26px;
 }
 
 .user {
   position: relative;
   border: 1px solid #ccc;
   background-color: #fff;
-  padding: 20px 20px 40px 20px;
+  padding: 10px 10px 40px 10px;
   margin-bottom: 30px;
 }
-
 
 .user .foto {
   display: flex;
 }
 
 .user img {
-  width: 100%;
+  width: 208px;
+  height: 208px;
 }
 
 .user .name {
   font-size: 20px;
-  border-bottom: 1px solid #871F22;
+  border-bottom: 1px solid #488b79;
   padding-bottom: 8px;
   margin-bottom: 10px;
 }
@@ -33,9 +34,9 @@
 .user .info {
   position: absolute;
   bottom: -22px;
-  background-color: #C2554F;
+  background-color: #58C4A7;
   padding: 10px;
-  width: calc(100% - 40px);
+  width: calc(100% - 20px);
   text-align: center;
   color: white;
 }

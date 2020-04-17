@@ -1,0 +1,27 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  color: #444;
+}
+
+html, body, #root {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: 80px 1fr;
+}

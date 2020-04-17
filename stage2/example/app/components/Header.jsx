@@ -31,7 +31,8 @@ const Header = props => {
         <div className="flex-right">
           <NavLink className="header-item" to="/">Главная</NavLink>
           <NavLink className="header-item" to="/counter">Счетчик</NavLink>
-          <NavLink className="header-item" to="/users">Пользователи Github</NavLink>
+          <NavLink className="header-item" to="/users">Пользователи (Class)</NavLink>
+          <NavLink className="header-item" to="/users-alt">Пользователи (Func)</NavLink>
         </div>
       </div>
     </header>

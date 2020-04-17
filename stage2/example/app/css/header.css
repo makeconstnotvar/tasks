@@ -1,0 +1,29 @@
+
+.header {
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2);
+}
+
+.header-item {
+  display: inline-block;
+  text-decoration: none;
+  color: #444;
+  border-bottom: 2px solid transparent;
+}
+
+.header-item.brand {
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header-item:not(.brand) {
+  margin-left: 20px;
+}
+
+.header-item:not(.brand).active,
+.header-item:not(.brand):hover {
+  border-bottom: 2px solid #58C4A7;
+  color: #444;
+}

@@ -1,0 +1,20 @@
+
+.jumbo {
+  background-image: url("/img/jumbo.jpg");
+  background-size: cover;
+  color: white;
+  height: 500px;
+}
+
+.jumbo-title {
+  font-size: 70px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.jumbo-text {
+  font-size: 24px;
+  width: 70%;
+  margin: 0 auto;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
