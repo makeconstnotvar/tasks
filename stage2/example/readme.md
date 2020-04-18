@@ -12,3 +12,9 @@ npm install
 npm run build
 npm run start
 ```
+
+Использовать npm пакет ["qs"](https://www.npmjs.com/package/qs) для чтения query параметра `?id=3`
+
+При реализации списка пользователей в виде функционального компонента с хуками и хранением 
+списка в стейте нужно прочитать раздел документации
+["пропуск эффектов"](https://ru.reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects)

@@ -10,10 +10,11 @@ class UsersPage extends Component {
   }
 
   updateText = (text) => {
+    this.setState({text})
+
     let searchLogin = text.trim().toLowerCase();
     if (searchLogin)
       this.setState({
-        text: searchLogin,
         filtered: users.filter(user => user.login.includes(searchLogin))
       })
   }

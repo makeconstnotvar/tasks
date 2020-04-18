@@ -1,6 +1,6 @@
 import React from "react";
 import {PropTypes} from "prop-types";
-import {numFormat} from "../numFormat";
+import {numFormat} from "utils/numFormat";
 
 const ViewData = props => (
   <div className="view-data">
