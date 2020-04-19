@@ -1,41 +1,67 @@
-import {Component, Fragment} from 'react';
 import React from 'react';
-import {Link} from "@reach/router";
+import PropTypes from 'prop-types';
 import qs from 'qs';
+import {Link} from "@reach/router";
+import first from "lodash/first";
+import last from "lodash/last";
 
-class Pager extends Component {
-  componentDidUpdate(prevProps) {
-    console.log('-Pager-')
-    console.log(prevProps, this.props)
-  };
 
-  render() {
-    let {$pager} = this.props;
-    let query = qs.parse(location.search, {ignoreQueryPrefix: true})
-    if (!$pager.showPager)
-      return null;
-    return (
-      <div className="pager flex-row flex-wrap unselectable">
-        {
-          $pager.isPrev &&
-          <a className="page undecorate pointer" onClick={e => this.pageChange(e, 1)}><i className="fas fa-arrow-left"/></a>
-        }
-        {
-          !$pager.showAll &&
-          <Fragment>
-            {
-              $pager.pages.map(page => <Link to={`${location.pathname}?${qs.stringify({...query, page})}`} key={page}
-                                             className={`page undecorate pointer ${page === $pager.currentPage ? 'active' : ''}`}>{page}</Link>)
-            }
-          </Fragment>
-        }
-        {
-          $pager.isNext &&
-          <a className="page undecorate pointer" onClick={e => this.pageChange(e, $pager.currentPage + 1)}><i className="fas fa-arrow-right"/></a>
-        }
-      </div>
-    )
+const Pager = props => {
+  let visiblePagesCount = props.visiblePagesCount;
+  let offset = Math.floor(visiblePagesCount / 2);
+  let maxPagesCount = Math.ceil(props.total / props.pageSize) || 1;
+  let pages = [];
+  let start = 1;
+  let query = qs.parse(location.search, {ignoreQueryPrefix: true});
+  let currentPage = props.currentPage;
+
+  if (props.currentPage > offset) {
+    start = props.currentPage - offset;
+    if (start > maxPagesCount - visiblePagesCount + 1 && maxPagesCount >= visiblePagesCount) {
+      start = maxPagesCount - visiblePagesCount + 1;
+    }
   }
+
+  if (start + visiblePagesCount > maxPagesCount) {
+    visiblePagesCount = Math.abs(maxPagesCount - start) + 1;
+  }
+
+  for (let i = 0; i < visiblePagesCount; ++i) {
+    pages.push(i + start);
+  }
+
+  let isPrev = first(pages) > 1;
+  let isNext = last(pages) < maxPagesCount;
+
+  return (
+    <div className="pager mb-20">
+      {
+        isPrev &&
+        <Link to={`${location.pathname}?${qs.stringify({...query, page: currentPage - 1})}`} className="page undecorate pointer"><i className="fas fa-arrow-left"/></Link>
+      }
+      {
+        pages.map(page => <Link to={`${location.pathname}?${qs.stringify({...query, page})}`} className={`page undecorate pointer ${page === currentPage ? 'active' : ''}`} key={page}>{page}</Link>)
+      }
+      {
+        isNext &&
+        <Link to={`${location.pathname}?${qs.stringify({...query, page: currentPage + 1})}`} className="page undecorate pointer"><i className="fas fa-arrow-right"/></Link>
+      }
+    </div>
+  );
 }
 
-export {Pager}
+Pager.propTypes = {
+  currentPage: PropTypes.number,
+  pageSize: PropTypes.number,
+  visiblePagesCount: PropTypes.number,
+  total: PropTypes.number
+}
+
+Pager.defaultProps = {
+  currentPage: 1,
+  pageSize: 20,
+  visiblePagesCount: 5,
+  total: 0
+}
+
+export {Pager};

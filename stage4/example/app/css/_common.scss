@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  min-height: 100vh;
+  background-color: #121212;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+

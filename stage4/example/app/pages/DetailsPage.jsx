@@ -1,11 +1,11 @@
 import React, {Component, Fragment} from "react";
 
-class MovieDetailsPage extends Component {
+class DetailsPage extends Component {
 
   componentDidMount = () => {
     let {$movieDetails} = this.props;
     $movieDetails.fullReset();
-    MovieDetailsPage.fetch(this.props);
+    DetailsPage.fetch(this.props);
   };
 
   static fetch = (props) => {
@@ -31,4 +31,4 @@ class MovieDetailsPage extends Component {
   }
 }
 
-export {MovieDetailsPage}
+export {DetailsPage}
