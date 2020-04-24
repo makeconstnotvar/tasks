@@ -1,29 +1,41 @@
 import React, {Component, Fragment} from "react";
+import {moviesApi} from "../api/moviesApi";
+import {Progress} from "../components/Progress";
 
 class DetailsPage extends Component {
-
+  state = {
+    fetchProgress: false,
+    fetchDone: false,
+    item: {}
+  }
   componentDidMount = () => {
-    let {$movieDetails} = this.props;
-    $movieDetails.fullReset();
-    DetailsPage.fetch(this.props);
+    this.fetch(this.props.id);
   };
 
-  static fetch = (props) => {
-    let {$movieDetails, id} = props;
-    $movieDetails.fetchItem(id).then(() => console.log($movieDetails.item));
+  fetch = async (id) => {
+    this.setState({
+      fetchProgress: true,
+      fetchDone: false
+    })
+    let response = await moviesApi.getMovieDetails(id);
+    this.setState({
+      item: response,
+      fetchProgress: false,
+      fetchDone: true
+    })
   };
 
   render() {
-    let {$movieDetails} = this.props;
+    let {item,fetchProgress,fetchDone} = this.state;
     return (
       <div className="container">
-        <h1 className="white">Detail Page</h1>
+        <h1 className="white">Карточка фильма <Progress isProgress={fetchProgress}/></h1>
         {
-          $movieDetails.fetchDone &&
+          fetchDone &&
           <Fragment>
-            <h3>{$movieDetails.item.title}</h3>
-            <img style={{maxWidth: '100%'}} src={`https://image.tmdb.org/t/p/w500${$movieDetails.item.poster_path}`} alt={$movieDetails.item.title}/>
-            <div>{$movieDetails.item.overview}</div>
+            <h3>{item.title}</h3>
+            <img style={{maxWidth: '100%'}} src={`https://image.tmdb.org/t/p/w500${item.poster_path}`} alt={item.title}/>
+            <div>{item.overview}</div>
           </Fragment>
         }
       </div>

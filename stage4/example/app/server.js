@@ -10,10 +10,9 @@ app.use(helmet());
 app.use(compression());
 
 app.use('/build', express.static(path.join(__dirname, 'build')));
-app.use('/css', express.static(path.join(__dirname, 'css')));
-app.use('/img', express.static(path.join(__dirname, 'img')));
+app.use('/fonts', express.static(path.join(__dirname, 'fonts')));
 
-app.get('*', (req, res) => {
+app.get(['/','/movie/:id'], (req, res) => {
   res.sendFile(  'index.html',{root:__dirname})
 });
 

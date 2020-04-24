@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "static app",
+    "start": "node app/server.js",
     "watch-js": "webpack --progress --watch",
     "watch-css": "gulp watch",
     "build-js": "webpack --progress",
@@ -31,6 +31,9 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0"
   }
 }

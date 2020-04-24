@@ -31,7 +31,7 @@ class MoviesPage extends Component {
     this.setState({
       fetchProgress: true,
       fetchDone: false,
-      page: params.page
+      page: +params.page||1
     })
     let response = await moviesApi.getTopMovies(params);
     this.setState({
