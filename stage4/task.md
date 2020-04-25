@@ -10,7 +10,6 @@ https://developers.themoviedb.org/3/movies/get-top-rated-movies
 https://developers.themoviedb.org/3/movies/get-similar-movies  
 Показать результат  
 
-Опционально
 Показать похожие фильмы
 Вызвать api
 https://developers.themoviedb.org/3/movies/get-similar-movies  
