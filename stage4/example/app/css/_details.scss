@@ -1,0 +1,23 @@
+.details {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.similars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 -20px;
+}
+
+.similar {
+  width: 200px;
+  margin: 0 20px 30px 20px;
+
+  img {
+    width: 200px;
+    height: 300px;
+  }
+}
+

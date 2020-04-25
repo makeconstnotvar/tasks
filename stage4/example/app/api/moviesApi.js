@@ -11,6 +11,10 @@ const moviesApi = {
   getMovieDetails: async (id) => {
     let response = await axios.get(`https://api.themoviedb.org/3/movie/${id}`, {params: def});
     return response.data;
+  },
+  getSimilarMovies: async (id) => {
+    let response = await axios.get(`https://api.themoviedb.org/3/movie/${id}/similar`, {params: def});
+    return response.data;
   }
 };
 export {moviesApi}

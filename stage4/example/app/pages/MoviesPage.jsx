@@ -55,7 +55,7 @@ class MoviesPage extends Component {
         <Pager total={total} currentPage={page}/>
         <div className={`movies ${fetchProgress ? 'hidden' : ''}`}>
           {
-            items.map(movie => <MovieItem key={movie.id} movie={movie}/>)
+            items.map(movie => <MovieItem key={movie.id} movie={movie}  width={300}/>)
           }
         </div>
       </div>
