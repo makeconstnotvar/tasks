@@ -1,12 +1,13 @@
 # Задание 2
 
-Изучение клиентского роутинга в React приложении.  
+Изучение клиентского роутинга в single page application (SPA).  
 
 **Рекомендации:**  
 - Прочитать раздел "Основные понятия" с сайта [ru.reactjs.org](https://ru.reactjs.org), пункты `5`,`6`,`7`
 - На сайте [@reach/router](https://reach.tech/router) посмотреть в разделе Tutorial пункты `Router`, `Url Parameters`
 - Нужно будет воспрользоваться компонентами `<Router/>` `<Page1 path="/page1" />` `<Link to="/page1" />`  
 - Как сделать подсветку выбранного пункта меню [active links](https://reach.tech/router/example/active-links)
+- Прочитать как пользоваться [express.js](https://expressjs.com/en/4x/api.html#app) web сервером  
 
 **Задание:**  
 Создать React приложение из 3 страниц с помощью клиентского роутера   

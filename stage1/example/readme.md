@@ -12,3 +12,6 @@ npm install
 npm run build
 npm run start
 ```
+
+Example содержит страницу page4.js с примером использования компонента 
+`Worker` и css вынесенные в отдельный файл `workers.css`

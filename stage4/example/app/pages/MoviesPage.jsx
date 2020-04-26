@@ -12,7 +12,7 @@ class MoviesPage extends Component {
     fetchDone: false,
     items: [],
     total: 0,
-    page:1
+    page: 1
   }
 
   componentDidMount() {
@@ -31,7 +31,7 @@ class MoviesPage extends Component {
     this.setState({
       fetchProgress: true,
       fetchDone: false,
-      page: +params.page||1
+      page: +params.page || 1
     })
     let response = await moviesApi.getTopMovies(params);
     this.setState({
@@ -43,19 +43,14 @@ class MoviesPage extends Component {
   }
 
   render() {
-    let {
-      fetchProgress,
-      items,
-      total,
-      page
-    }=this.state;
+    let {fetchProgress, items, total, page} = this.state;
     return (
       <div className="container">
         <h1 className="white">Лучшие фильмы <Progress isProgress={fetchProgress}/></h1>
         <Pager total={total} currentPage={page}/>
         <div className={`movies ${fetchProgress ? 'hidden' : ''}`}>
           {
-            items.map(movie => <MovieItem key={movie.id} movie={movie}  width={300}/>)
+            items.map(movie => <MovieItem key={movie.id} movie={movie} width={300}/>)
           }
         </div>
       </div>

@@ -12,3 +12,5 @@ npm install
 npm run build
 npm run start
 ```
+
+Обратить внимание `numFormat.js`, который использует [Intl](https://learn.javascript.ru/intl)
