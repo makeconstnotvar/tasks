@@ -1,9 +1,9 @@
 @mixin hide-mixin {
   display: block !important;
-  opacity: 0.5;
+  color: #999;
 }
 
 @mixin show-mixin {
   display: block !important;
-  opacity: 1;
+  color: #333;
 }

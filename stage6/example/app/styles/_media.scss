@@ -1,0 +1,51 @@
+.media-box {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: -6px 6px 14px 0px #ccc;
+  margin-bottom: 50px;
+}
+
+.media-row {
+  border: 1px solid #444;
+  padding: 10px;
+}
+
+.media-title {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.media-size {
+  font-size: 12px;
+}
+
+@media (min-width: 1001px) {
+  .desktop {
+    background-color: #3399CC;
+    color: #fff;
+  }
+}
+
+@media (min-width: 751px) and(max-width: 1000px) {
+  .tablet {
+    background-color: #3399CC;
+    color: #fff;
+  }
+}
+
+@media (min-width: 501px) and(max-width: 750px) {
+  .mobile {
+    background-color: #3399CC;
+    color: #fff;
+  }
+}
+
+@media (max-width: 500px) {
+  .micro {
+    background-color: #3399CC;
+    color: #fff;
+  }
+}

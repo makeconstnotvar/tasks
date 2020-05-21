@@ -1,0 +1,37 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #333;
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.page-width {
+  margin: 20px 0 20px 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.dashed {
+  border-bottom: 1px dashed;
+}
+
+

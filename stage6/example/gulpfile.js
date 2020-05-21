@@ -4,7 +4,7 @@ let gulp = require('gulp'),
   del = require('del'),
   path = require('path');
 
-let styles = ['app/css/styles.scss'],
+let styles = ['app/styles/styles.scss'],
   destination = 'app/build';
 
 gulp.task('delete', function () {
@@ -24,7 +24,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('watch', gulp.series('delete', 'styles', function () {
-  return gulp.watch(['app/css/**/*.scss'], gulp.series('styles'));
+  return gulp.watch(['app/styles/**/*.scss'], gulp.series('styles'));
 }));
 
 gulp.task('build', gulp.series('delete', 'styles'));

@@ -1,15 +1,23 @@
+/*
+@media (max-width: 1440px) {}
+@media (max-width: 1280px) {}
+@media (max-width: 1000px) {}
+@media (max-width: 750px) {}
+@media (max-width: 500px) {}
+*/
 
 .container {
-  width: 1426px;
+  width: 1396px;
   margin: auto;
 }
 
 .show {
-  @include hide-mixin;
+  @include show-mixin;
+
 }
 
 .hide {
-  @include show-mixin;
+  @include hide-mixin;
 }
 
 /* DESKTOP */
@@ -27,14 +35,13 @@
 
 @media (max-width: 1440px) {
   .container {
-    width: 1266px;
-
+    width: 1236px;
   }
 }
 
 @media (max-width: 1280px) {
   .container {
-    width: 986px;
+    width: 956px;
 
   }
 }
@@ -42,8 +49,7 @@
 @media (max-width: 1000px) {
   /* TABLET */
   .container {
-    width: 100%;
-
+    width: calc(100% - 30px);
   }
   .show-tablet,
   .show-tablet-down,
@@ -76,7 +82,9 @@
 
 @media (max-width: 500px) {
   /* MICRO */
-
+  .container {
+    width: calc(100% - 14px);
+  }
   .show-micro,
   .hide-mobile,
   .hide-mobile-up {

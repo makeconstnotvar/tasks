@@ -1,0 +1,25 @@
+
+.demo-title {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px 0 5px 10px;
+}
+
+.demo-desc {
+  margin: 5px 0 5px 10px;
+}
+
+.demo-box {
+  border: 1px solid #444;
+  padding: 10px;
+  box-shadow: -6px 6px 14px 0px #ccc;
+
+  &:last-child {
+    margin-bottom: 50px;
+  }
+
+  & > div {
+    font-family: 'Consolas';
+    font-size: 15px;
+  }
+}
