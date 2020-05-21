@@ -6,3 +6,6 @@ Javascript, HTML, CSS, Node, React, Router, Webpack, Babel, Gulp, Maps, Mongo, M
 [Задание 2](stage2/task.md)  
 [Задание 3](stage3/task.md)  
 [Задание 4](stage4/task.md)  
+[Задание 5](stage5/task.md) в процессе  
+[Задание 6](stage6/task.md) в процессе 
+ 

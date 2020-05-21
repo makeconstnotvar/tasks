@@ -2,11 +2,16 @@ stage1/example/node_modules
 stage2/example/node_modules
 stage3/example/node_modules
 stage4/example/node_modules
+stage5/example/node_modules
+stage6/example/node_modules
 
 stage1/example/app/build
 stage2/example/app/build
 stage3/example/app/build
 stage4/example/app/build
+stage5/example/app/build
+stage6/example/app/build
 
 npm-debug.log
 .idea
+
