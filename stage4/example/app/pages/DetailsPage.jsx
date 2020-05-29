@@ -15,6 +15,11 @@ class DetailsPage extends Component {
     this.fetch(this.props.id);
   };
 
+  componentDidUpdate(prevProps) {
+    if (this.props.id !== prevProps.id)
+      this.fetch(this.props.id);
+  }
+
   fetch = async (id) => {
     this.setState({
       fetchProgress: true,

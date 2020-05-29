@@ -4,23 +4,16 @@ let gulp = require('gulp'),
   del = require('del'),
   path = require('path');
 
-let styles = ['app/css/styles.scss'],
-  destination = 'app/build';
-
 gulp.task('delete', function () {
   return del(['build/*.css', 'build/*.css.map'])
 });
 
-gulp.task('clean', function () {
-  return del(['build/*'])
-});
-
 gulp.task('styles', function () {
-  return gulp.src(styles)
+  return gulp.src(['app/css/styles.scss'])
     .pipe(sourcemaps.init())
     .pipe(sass({importer: tildaResolver}).on('error', sass.logError))
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(destination));
+    .pipe(gulp.dest('app/build'));
 });
 
 gulp.task('watch', gulp.series('delete', 'styles', function () {

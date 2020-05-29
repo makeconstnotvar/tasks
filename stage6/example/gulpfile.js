@@ -1,26 +1,18 @@
 let gulp = require('gulp'),
   sourcemaps = require('gulp-sourcemaps'),
   sass = require('gulp-sass'),
-  del = require('del'),
-  path = require('path');
-
-let styles = ['app/styles/styles.scss'],
-  destination = 'app/build';
+  del = require('del');
 
 gulp.task('delete', function () {
   return del(['build/*.css', 'build/*.css.map'])
 });
 
-gulp.task('clean', function () {
-  return del(['build/*'])
-});
-
 gulp.task('styles', function () {
-  return gulp.src(styles)
+  return gulp.src('app/styles/styles.scss')
     .pipe(sourcemaps.init())
-    .pipe(sass({importer: tildaResolver}).on('error', sass.logError))
+    .pipe(sass())
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(destination));
+    .pipe(gulp.dest('app/build'));
 });
 
 gulp.task('watch', gulp.series('delete', 'styles', function () {
@@ -29,11 +21,5 @@ gulp.task('watch', gulp.series('delete', 'styles', function () {
 
 gulp.task('build', gulp.series('delete', 'styles'));
 
-function tildaResolver(url, prev, done) {
-  if (url[0] === '~') {
-    url = path.resolve('node_modules', url.substr(1));
-  }
-  return {file: url};
-}
 
 
