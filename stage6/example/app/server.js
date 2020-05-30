@@ -12,8 +12,8 @@ app.use(compression());
 app.use('/build', express.static(path.join(__dirname, 'build')));
 app.use('/fonts', express.static(path.join(__dirname, 'fonts')));
 
-app.get(['/','/movie/:id'], (req, res) => {
-  res.sendFile(  'index.html',{root:__dirname})
+app.get(['/', '/movie/:id'], (req, res) => {
+  res.sendFile('index.html', {root: __dirname})
 });
 
 app.use(function (req, res, next) {
