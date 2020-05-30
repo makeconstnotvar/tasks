@@ -1,12 +1,13 @@
 ### Задание 4
 
-Изучение xhr, на примере вызовов api сервера публичной БД в фильмами [TMDB](https://www.themoviedb.org)
+Изучение xhr, на примере вызовов api сервера публичной БД в фильмами [TMDB](https://www.themoviedb.org),
+использование препроцессора SCSS, сборка CSS с помощью Gulp.  
 
 Для вызовов api БД нужен ключ, параметр `api_key` в каждом запросе, который можно получить 
 зарегистрировавшись на TMDB, после в личном кабинете зайти в раздел API и попросить ключ.  
 
-Что такое XHR можно прочитат на [learn.javascript](https://learn.javascript.ru/ajax-xmlhttprequest)
-Для программирования вызовов лучше использовать библиотеку [axios](https://github.com/axios/axios)
+Что такое XHR можно прочитать на [learn.javascript](https://learn.javascript.ru/ajax-xmlhttprequest)
+Для программирования XHR вызовов лучше использовать библиотеку [axios](https://github.com/axios/axios)
 
 **Страница "Лучшие фильмы":**  
 Должна быть доступна по ссылке `"/"`  

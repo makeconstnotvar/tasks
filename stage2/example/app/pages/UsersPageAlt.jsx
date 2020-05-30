@@ -13,18 +13,24 @@ const UsersPageAlt = props => {
   let searchLogin = text.trim().toLowerCase();
 
   useEffect(() => {
+    if (searchLogin) {
+      id = 0;
+    }
     if (id) {
       let result = users.filter(user => user.id === +id)
       updateFiltered(result);
+    } else {
+      let result = users.filter(user => user.login.includes(searchLogin))
+      updateFiltered(result);
     }
-  },[id])
+  }, [id, searchLogin])
 
-  useEffect(() => {
+  /*useEffect(() => {
     if (searchLogin) {
      let result = users.filter(user => user.login.includes(searchLogin))
      updateFiltered(result);
     }
-  },[searchLogin])
+  },[searchLogin])*/
 
   return (
     <div className="container">
