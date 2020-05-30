@@ -1,13 +1,8 @@
 const express = require('express'),
-  helmet = require('helmet'),
-  compression = require('compression'),
   app = express(),
   http = require('http'),
   path = require('path'),
   server = http.createServer(app);
-
-app.use(helmet());
-app.use(compression());
 
 app.use('/build', express.static(path.join(__dirname, 'build')));
 app.use('/css', express.static(path.join(__dirname, 'css')));
