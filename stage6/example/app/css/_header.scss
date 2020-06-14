@@ -17,3 +17,17 @@ header {
     transition: background-color 300ms;
   }
 }
+
+.header-item {
+  color: #fff;
+  padding: 10px 15px;
+  display: inline-flex;
+  font-size: 30px;
+  transition: background-color 300ms;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #a94442;
+    transition: background-color 300ms;
+  }
+}

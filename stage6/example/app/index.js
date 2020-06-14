@@ -5,6 +5,7 @@ import {Layout} from "layouts/Layout";
 import {MoviesPage} from "pages/MoviesPage";
 import {DetailsPage} from "pages/DetailsPage";
 import moment from "moment";
+import {RequestPage} from "./pages/RequestPage";
 
 moment.locale("ru");
 
@@ -14,6 +15,7 @@ const App = props => {
       <Router>
         <MoviesPage path="/"/>
         <DetailsPage path="/movie/:id"/>
+        <RequestPage path="/request"/>
       </Router>
     </Layout>
   )
